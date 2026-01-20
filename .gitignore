@@ -34,3 +34,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# src 폴더와 그 하위의 모든 파일 무시
+src/

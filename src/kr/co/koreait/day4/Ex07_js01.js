@@ -1,5 +1,0 @@
-function externalBtn() {
-
-    alert("external!")
-}
-
