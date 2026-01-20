@@ -1,3 +1,15 @@
-깃 브랜치
 
-$ git log --all --decorate --oneline --graph
+
+2. 커맨드
+ - 브랜치 생성: git branch 브랜치명
+ - 브랜치 목록: git branch
+ - 브랜치 이동: git switch 브랜치명
+ - 커밋 합치기: git merge 합칠 브랜치명
+  >마지막 커밋 시점을 가져와 적용
+
+3.충돌상황
+ - 서로 다른 개발자가 똑같은 파일에 다른 코드를 작성할 때 발생
+ - git merge --abort를 작성하여 merge를 취소하거나 필요 코드만 남기고 커밋해서 해결
+
+. ->내 현재위치 싹다
+git add 파일명 해도 됨
