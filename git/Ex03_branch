@@ -1,2 +1,3 @@
 깃 브랜치
 
+$ git log --all --decorate --oneline --graph
