@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./Ex06_css.css">
+
+</head>
+<body>
+    <div class="parent">
+        parent
+            <div class="child">
+                child
+            </div>
+    </div>
+
+    <script>
+        var a ="var 변수";
+        let b = "let 변수";
+        const c= "const 변수";
+
+        console.log(a);
+        console.log(b);
+        console.log(c); //const
+
+        //차이점:
+        // 📝1.중복선언
+        var a =10; //중복선언 유일 가능
+
+        // 📝`2.외부변수 참조
+        function example(){
+        var a_2 = 10;
+        let b_2 = 20;
+        const c_2 = 30;
+
+            if (true) {
+                var a_2 =100;
+                let b_2 = 200;
+                const c_2 =300;
+                console.log(a_2, b_2, c_2);
+            }
+                console.log(a_2, b_2, c_2);
+        }
+        // 블록스코프가 스택 같은 느낌
+        // 함수 스코프는 static같은 느낌
+        // var는 무조건 함수 스코프(static에 저장같은)
+        // let이랑 const는 가까운 범위의 스코프를 범위로 가짐.
+        example();
+
+        //📝 3.호이스팅
+        console.log(a_3);
+        var a_3 ="a_3 변수"
+        console.log(a_3);
+
+        console.log(b_3);
+        let b_3 ="let 변수";
+        console.log(b_3);
+    </script>
+
+    <script>
+        let age =19; // number
+        let name ="김땡땡"; // String
+        let flag = true; //boolean
+        let check; // undefined
+        let hobby =["잠자기", "먹기"]; //object -> 배열 hobby[1]
+        let memberInfo = { //object
+            name: "홍길동",    // memberInfo.name => 홍길동 (java에서 keyValue같은거)
+            age: 22,
+            flag: false
+        };
+        let nameSymbol = Symbol("name"); //Symbol
+        let bigint = BigInt("12313231313131312313131312312"); //BigInt
+
+        let uniqueKey = Symbol("name"); // 문자열은 Symbol으로 똑같을 지언정 각각 다름
+
+        console.log(nameSymbol == uniqueKey); //서로 다름
+
+        let obj= {
+            nameSymbol:"이소정",
+            uniqueKey:"홍길동"
+        }
+        console.log(obj);
+
+        let num1 = 9007199254740991;
+        console.log(num1);
+        console.log(num1+1);// 위범위 넘어가기 시작하면 정밀도가 떨어지기 시작.
+        console.log(num1+2);//이거 잘 잡아주는게 BigInt();
+        console.log(num1+3);
+        console.log(num1+4);
+
+        let num3 = BigInt(9007199254740991);
+        console.log(num3);
+        console.log(num3+1n);
+        console.log(num3+2n);
+        console.log(num3+3n);
+
+        let inputNumber = prompt("숫자를 입력:");
+        console.log("입력한 숫자는: "+ inputNumber);
+
+    </script>
+
+    <script>
+        //함수 종류
+        // 일반함수-> 호이스팅 가능 . return문을 반복. 한번 올라가면 메모리에 계속있음
+        // 익명함수: 한번만 사용하는 기능
+        // 화살표 함수: 코드의 라인을 줄이기 위해 사용
+        // 생성자 함수: 생성자 만드는데 객체로까지 쓸 수 있음. 계속 쓸 수있음. 앞글자 대문자, 생성시 new 붙임
+        // 내부함수, 재귀함수
+        // 콜백함수: 매개변수에 함수를 넘기는게 가능. 함수를 매개변수로 던져주는거
+
+        //**DOM 조작이 중요함
+    </script>
+
+</body>
+</html>

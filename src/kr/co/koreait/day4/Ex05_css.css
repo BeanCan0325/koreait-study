@@ -1,0 +1,69 @@
+p{
+    color: #8be48b;
+    font-size: 26px;
+}
+
+/* 📝CSS 선택자의 종류  : 고유성 충돌  방지를 위해 적절히 써야함
+     @클래스 선택자 : .클래스명
+
+     <우선순위>
+     !importance: 왠만하면 안쓰는게
+     인라인 스타일
+     아이디 선택자
+     클래스 선택 자
+     태그 선택자   태그명{내용;}
+     자식 선택자
+     후손 선택자
+
+     속성 선택자: <input type="text">
+                선택자[속성=값]{내용;}
+                input[type="text]
+                con+/ -> 주석
+*/
+
+/*아이디 선택자 (#)  이정도는 외워야함*/
+#p-tag-id{
+    color: #c86565;
+}
+/*클래스 선택자(.)  이정도는 외워야함*/
+.p-tag-text{
+    color: #910f0f;
+}
+
+.text-small{
+    color: #244ded;
+    font-size: 14px
+}
+
+
+/*
+    div > h4 자식 선택자
+    div h4 후손 선택자
+*/
+
+/*
+div>h4 vs div h4
+*/
+div > h4{
+    background-color: antiquewhite;
+}
+
+/*
+ h1 ~ p  vs h1 +p
+ ~: 동위선택자(같은 위치에 있는 p태그 전부 다)
+ +: 동위선택자(같은 위치에 있는 p 태그 바로 뒤에 있는 1개만)
+*/
+h3 ~ p{
+    color: tomato
+}
+.btn:hover{
+    background-color: aqua;
+}
+
+.btn:active{
+    background-color: blueviolet;
+}
+
+input:focus{
+    border:5px solid red;
+}

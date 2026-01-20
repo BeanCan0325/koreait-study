@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="parent">
+        <p>첫번째 p태그</p>
+        <p>두번째 p태그</p>
+
+        <!-- 주석-->
+        텍스트 노드입니다.
+    </div>
+
+    <script>
+        let parentDiv = document.getElementById("parent");
+        let nodes = parentDiv.childNodes;
+
+        console.log(nodes);
+    </script>
+
+    <hr>
+
+    <ul id="ul-list"> <!-- UnOrdered List : 순서가 없는 목록-->
+        <li>리스트1</li> <!-- List Item: 목록의 항목 .⭐<li>안에 또다른 목록으로 넣고 싶을 때는 반드시 새로운 울타리<ul,ol>로 감싸야한다. -->
+            <Ol>
+            <li>small List 1</li>
+            <li>small List 2</li>
+            </Ol>
+        <li>리스트2</li>
+    </ul>
+        <button id="add-list-btn" onclick="addList()">리스트 추가</button>
+
+    <script>
+        function addList(){
+            // let ulList =document.getElementById("ul-list");
+            // //위 줄이 함수 안에 있냐, 밖에 있냐에 따라 다름. 위처럼 안에 있으면 함수 호출하면 실행되는것. 실행 시점 주의
+            //
+            // //li요소 생성하기
+            // let newList = document.createElement("li");
+            // //documnet란, html 문서중에서 가장 위에있는 객체(제일부모)라고 생각하면됨
+            // newList.textContent = "추가된 리스트입니다.";
+            // //텍스트 노드, 즉 태그 안에 (열리고 닫히는) 있는 텍스트
+            // ulList.appendChild(newList);
+
+
+            // 세부리스트 append 하기
+            let firstLic = document.querySelector()
+
+        }
+    </script>
+
+</body>
+</html>

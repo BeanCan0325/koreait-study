@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let book ={
+            name: "자바의 정석",
+            author: "남궁성",
+            year: "1999",
+            genre: "Novel"
+        }
+
+        console.log(book)
+        console.log(book.name)
+
+        book.pages= 333; <!-- 값추가, pages라는 키가 존재하지 않아서 추가-->
+        book.year =2002; //year라는 키가 존재하기 때문에 수정
+        console.log(book)
+
+        delete book.genre; <!-- genre 키를 가진 요소 삭제 -->
+        console.log(book)
+
+        function updateName(book, newName) {
+            book.name = newName;
+        }
+        updateName(book,"변경");
+        console.log(book);
+
+        const keys = Object.keys(book); <!-- 키만뽑아내고-->
+        console.log(keys);
+
+        const values = Object.values(book); <!-- value만 뽑아낸다-->
+        console.log(values);
+
+        let user={
+            name: "홍길동",
+            age: 19,
+            job: "학생"
+        }
+
+        function updateJob(user,newJob){
+            console.log(user);
+            user.job= newJob;
+        }
+        updateJob(user,"개발")
+
+    //    [ 배열 ]
+        let scores=[55,10,30];
+        console.log(scores[0]);
+
+    // [객체와 배열 ]
+        let score =[
+            { //0번인덱스
+                name: "롤렌도",
+                score: 77,
+            },
+            { //1번인덱스
+                name: "짱구",
+                score: 66,
+            },
+            { //2번 인덱스
+                name: "홍길동",
+                score: 33
+            }
+        ]
+        // score[1].name -> "짱구" 값이 나옴
+        // 이게바로 리스트안에 객체 있는 형태임
+        console.log(score);
+        score[2].score=100;
+        console.log(score);
+
+        //product 변수 ( 배열
+        // - 0번 인덱스: name "노트북",price 1700000, stock 5
+        // - 1번 인덱스: name "마우스, price 65000, stock 0
+        // - 2번 인덱스: name "키보드", price 130000, stock 3
+
+        //1. 노트북의 가격을 100원 변경
+        //2. 마우스의 재고 15개로 변경
+
+            let product =[
+                {
+                    name: "노트북",
+                    price: 1700000,
+                    stock: 5,
+                },
+                {
+                    name: "마우스",
+                    price: 65000,
+                    stock: 0,
+                },
+                {
+                    name: "키보드",
+                    price: 1300000,
+                    stock:13,
+                }
+            ]
+
+        product[0].price =100;
+        // product[1].stock =15;
+        console.log(product);
+
+        //반복문으로 모든 이름 다 출력
+
+        for(let i=0; i<product.length;i++){
+
+            if(product[i].stock === 0){
+                // console.log(product[i])
+                console.log(product[i].name)
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>
