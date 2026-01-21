@@ -23,3 +23,11 @@ git push origin main
 3. 충돌상황(conflict)
     - git merge --abort 를 작성해서 merge
 
+
+
+@ 하지말아야 할것
+ git push -f origin main
+ -> f를 넣으면 올라감 ( f: 내 코드 강제로 올리겠다.)
+
+
+- dev branch만듦
