@@ -18,5 +18,8 @@ git add 파일명 해도 됨
 <<<<<<< HEAD
 git push origin main
 
-다른 개발자가 코드를 추가했습니다. 
+다른 개발자가 코드를 추가했습니다.
+
+3. 충돌상황(conflict)
+    - git merge --abort 를 작성해서 merge
 
