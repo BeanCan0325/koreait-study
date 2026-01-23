@@ -21,11 +21,10 @@ pwd VARCHAR(250) NOT NULL);
 -- INSERT INTO memmber_unique --
 
 ##############################################################
- CREATE TABLE member_pk (
- member_pk_id int PRIMARY KEY auto_increment,
+ CREAT TABLE member_pk (
+ member_pk_int PRIMARY KEY AUTO_INCREMENT),
  id VARCHAR(50)
  );
-
 DROP TABLE member_pk;
 
  INAERT INTO MEMBER_pk VALUES(1,'testkey');
@@ -33,32 +32,3 @@ DROP TABLE member_pk;
 INAERT INTO MEMBER_pk VALUES(1,'testkey');
    gender varchar(1) CHECKUqjsgheuehe (gender IN'a''d'0
  );
- 
- CREATE TABLE member_primary(
-   member_primary_id int PRIMARY KEY AUTO_INCREMENT,
-   id varchar(50)
-);
-
-CREATE TABLE board_foreign(
-   board_foreign_id int PRIMARY KEY AUTO_INCREMENT,
-   title varchar(300),
-   writer_id int,
-   CONSTRAINT fk_writer FOREIGN KEY (writer_id)
-   REFERENCES member_primary(member_primary_id)
-   ON DELETE CASCADE
-);
-
-DROP TABLE board_foreign;
-
-INSERT INTO member_primary(id) 
-VALUES('test1'),
-	('test2'),
-	('test3');
-
-INSERT INTO board_foreign(title, writer_id) VALUES('게시글 제목!!',1);
-
-DELETE FROM member_primary
-WHERE member_primary_id =1;
-
-SELECT * FROM board_foreign;
-

@@ -151,16 +151,13 @@ CREATE TABLE test_employees(
 	te_department VARCHAR(50)
 );
 
--- 1번 이름바꾸기 -- 
 ALTER TABLE ddl_alter RENAME TO staff;
--- 2번 데이터 형식 바꾸기 -- 
+
 ALTER TABLE staff
  MODIFY te_department VARCHAR(100);
--- 4. 컬럼 삭제 --
 
--- 5. 컬럼 추가 --
 ALTER TABLE staff 
- ADD COLUMN te_last_name VARCHAR(50);
+ ADD te_last_name VARCHAR(50);
 
 ALTER TABLE staff
  RENAME COLUMN te_last_name TO surname;
@@ -171,16 +168,8 @@ ALTER TABLE test_employees
 ALTER TABLE test_employees 
  ADD COLUMN te_hire_date DATETIME;
 
--- 6. 제약조건 넣기 -- 
 ALTER TABLE test_employees 
- ADD CONSTRAINT te_salary_check UNIQUE(te_salary);
+ DROP CONSTRAINT te_salary_check UNIQUE(te_salary);
 SELECT VERSION();
-
-
--- [DROP] --> " DROP TABLE 테이블명 " -- 
--- DELETE vs DROP --
-
-DROP TABLE staff;
-DROP TABLE free_board, test_member;
 
  
