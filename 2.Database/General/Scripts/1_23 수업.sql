@@ -206,10 +206,85 @@ ON d.dept_no = dm.dept_no;
 -- 	  - 기준 테이블 값이 없어도 null로 채워져서 조회됨
 -- =====================================================================
 
+-- [서브쿼리]** 중요합니다.
+-- 	: 쿼리안에 쿼리가 있는
 
-	
+-- q1 입사일이 1993-02-19이면서 1964-10-24인 직원 이름 구하고, 
+-- 		다시 해당이름으로 조건을 검색해서 사번(emp_no)를 구해야 하는 경우
+
+SELECT first_name, last_name from employees
+WHERE hire_date = '1993-02-19'
+AND birth_date ='1964-10-24';
 
 
+SELECT  emp_no FROM employees
+WHERE first_name = 'Conrado'
+AND last_name = 'Serra';
+
+-- 서브쿼리 사용 
+SELECT emp_no FROM employees
+WHERE FIRST_name = 
+			(SELECT first_name from employees
+			WHERE hire_date = '1993-02-19'
+			AND birth_date ='1964-10-24') -- 이거 한줄로 줄여지긴함
+AND last_name =
+			(SELECT  last_name from employees
+			WHERE hire_date = '1993-02-19'
+			AND birth_date ='1964-10-24');
+
+SELECT emp_no
+FROM employees
+WHERE (first_name, last_name) = (SELECT FIRST_name, last_name FROM employees 
+								WHERE hire_date: '1993-02-19'
+								AND birth_date : '1964-10-24');
+
+-- 직원중에서 emp_no가 가장 높은 직원 찾기
+SELECT first_name, last_name FROM employees
+WHERE emp_no = (SELECT max(emp_no) FROM employees);
+
+SELECT max(emp_no), FIRST_name, last_name FROM employees
+GROUP BY FIRST_name, last_name, emp_no
+ORDER BY emp_no DESC 
+LIMIT 1; -- order by 쓰고 맨 위에 있는거 출력
+
+SELECT FIRST_name, last_name FROM employees
+ORDER BY emp_no DESC 
+LIMIT 1;
 
 
+SELECT first_name,last_name  FROM employees
+WHERE hire_date = (
+SELECT min(hire_date) FROM employees
+);
 
+-- 가장 높은 연봉을 받는 직원 이름 조회 -조인 없이
+SELECT FIRST_name FROM employees 
+WHERE emp_no = (
+SELECT emp_no FROM salaries s
+ORDER BY salary desc
+LIMIT  1
+);
+
+-- 평균 사번보다 높은 직원의 이름만 출력
+SELECT first_name, last_name  FROM employees
+WHERE emp_no >= (select avg(emp_no) FROM employees);
+
+
+SELECT *  FROM employees e
+WHERE hire_date > (
+	SELECT  avg(hire_date) FROM employees
+	WHERE emp_no = e.emp_no );
+-- 참조도 아니고 밖에 있는 테이블을 참조하고 있음. 느림
+-- 상관 서브쿼리 (밖의 컬럼을 참조하는거)   : 이거 안쓰는게 좋음 왠만하면 버리셈 성능 낮음. JOIN 쓰는게 나음
+
+
+-- 다중행 서브쿼리 
+SELECT emp_no, salary FROM salaries 
+WHERE salary IN (
+SELECT salary
+FROM salaries s 
+ORDER BY salary DESC);
+
+-- 이를 통해 알아야 하는건 하나하나의 개념보다도
+-- 결국은 어떻게 짜야할지 느낌을 보는것과 , 에러가 떴을 때 찾는거랑 
+-- 다른사람의 코드를 보는거.

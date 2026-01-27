@@ -1,0 +1,49 @@
+SELECT * FROM employees;
+USE employees;
+
+SELECT e.dept_no, d.dept_name FROM dept_emp e
+JOIN departments d
+ON e.dept_no = d.dept_no
+WHERE e.TO_date = '9999-01-01'
+group BY dept_no;
+
+
+SELECT dept_no, count(*) AS cnt FROM dept_emp
+WHERE to_date = '9999-01-01'
+GROUP BY dept_no
+ORDER BY count(*) DESC;
+
+
+SELECT* from(dept_emp);
+SELECT dept_name,  AS cnt FROM demp_emp de
+WHERE de.to_date = '9999-01-01'
+JOIN departments d
+ON de.dept_no = d.dept_no
+GROUP BY de.dept_no 
+ORDER BY count(*) des
+
+
+SELECT * FROM salaries s
+from(
+	SELECT emp_no, salary, salary*1.2 AS increased_salary FROM salaries
+	WHERE increased_salary > 200000
+) t 
+LIMIT 5;
+
+SELECT * FROM (
+			SELECT emp_no, salary, salary*1.1 AS new_salary FROM salaries
+			ORDER BY salary DESC 
+			LIMIT 5) t
+WHERE t.new_salary >= 150000;	
+
+SELECT dept_no, count(*) FROM dept_emp 
+WHERE to_date ='9999-01-01'
+GROUP BY dept_no;
+
+SELECT dept_no, count(*)  FROM dept_emp
+WHERE to_date = '9999-01-01'
+GROUP BY dept_no 
+ORDER BY count(dept_no) desc;
+
+SELECT * FROM dept_emp;
+

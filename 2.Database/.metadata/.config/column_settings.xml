@@ -17,7 +17,7 @@
 	</item>
 	<item id="NodeList/MySQLTableColumn">
 		<column name="컬럼명" visible="true" order="0" width="150"/>
-		<column name="#" visible="true" order="1" width="100"/>
+		<column name="#" visible="true" order="1" width="35"/>
 		<column name="Data Type" visible="true" order="2" width="100"/>
 		<column name="Not Null" visible="true" order="3" width="100"/>
 		<column name="Auto Increment" visible="true" order="4" width="100"/>
@@ -58,5 +58,11 @@
 		<column name="Extra" visible="false" order="7" width="100"/>
 		<column name="Expression" visible="false" order="8" width="100"/>
 		<column name="Comment" visible="true" order="3" width="68"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="342"/>
+		<column name="Time" visible="true" order="1" width="312"/>
+		<column name="Info" visible="true" order="2" width="197"/>
+		<column name="Folder" visible="true" order="3" width="209"/>
 	</item>
 </items>

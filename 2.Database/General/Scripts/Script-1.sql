@@ -62,3 +62,17 @@ WHERE member_primary_id =1;
 
 SELECT * FROM board_foreign;
 
+############################################
+
+SELECT * FROM titles
+WHERE to_date IS NOT NULL;
+
+-- in ->여러개의 값을 제시, 해당하는 값에 일치하는 데이터가 있는지 조회
+--  문법 SELECT [컬럼명] WHERE [컬럼명] IN(값1,값2)
+
+SELECT * FROM departments d
+WHERE dept_no IN('d005','d006');
+
+SELECT * FROM departments d
+WHERE dept_no  ='d005'
+OR  = 'd009'

@@ -1,7 +1,10 @@
 dialog.default.folder=C\:\\study\\2.Database\\General\\Scripts
 driver.selector.orderBy=score
 eclipse.preferences.version=1
+org.jkiss.dbeaver.core.confirm.disconnect_txn=always
+org.jkiss.dbeaver.core.confirm.exit=always
 sample.database.canceled=true
 sql.format.keywordCase=UPPER
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1769043503730
+ui.auto.update.check.time=1769480924667
+ui.show.tip.of.the.day.on.startup=false

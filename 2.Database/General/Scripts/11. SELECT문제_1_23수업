@@ -190,6 +190,8 @@ HAVING count(*) >= 10000;
 
 
 
+
+
 SELECT * FROM salaries;
 SELECT * FROM employees;
 SELECT * FROM dept_emp;

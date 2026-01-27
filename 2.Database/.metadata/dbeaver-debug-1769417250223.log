@@ -1,0 +1,129 @@
+2026-01-26 08:27:22.906 - DBeaver 25.3.3.202601181752 is starting
+2026-01-26 08:27:22.909 - OS: Windows 11 10.0 (amd64)
+2026-01-26 08:27:22.910 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-01-26 08:27:22.910 - Install path: 'C:\Users\ssjle\AppData\Local\DBeaver'
+2026-01-26 08:27:22.910 - Instance path: 'file:/C:/study/2.Database/'
+2026-01-26 08:27:22.913 - Memory available 64Mb/1024Mb
+2026-01-26 08:27:22.939 - Create display
+2026-01-26 08:27:23.259 - Initialize desktop platform...
+2026-01-26 08:27:23.502 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
+> Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.900.v20251104-0924]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.171.202601181752]
+2026-01-26 08:27:23.914 - Initialize base platform...
+2026-01-26 08:27:23.938 - send collected statistics
+2026-01-26 08:27:23.963 - Platform initialized (704ms)
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.500.v20250611-0855]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
+2026-01-26 08:27:24.638 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-01-26 08:27:24.989 - Error accessing instance server: java.net.ConnectException
+2026-01-26 08:27:25.018 - Starting instance server at http://localhost:53623
+2026-01-26 08:27:25.032 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.900.v20251023-1511]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.800.v20250916-0937]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.700.v20250916-0927]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250910-1205]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.600.v20251023-0615]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.900.v20251007-0832]
+Warning: NLS unused message: WorkbenchPreference_reuseEditorsThreshold in: org.eclipse.ui.internal.messages
+Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.1000.v20251114-0005]
+2026-01-26 08:27:27.013 - Open [https://stats.dbeaver.com/send-statistics?session=3ceea183-fb1e-4bfc-9e6f-0fc1e5081dbf&time=1769326980]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+2026-01-26 08:27:28.564 - Statistics sent (OK)
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.14.202601181752]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.73.202601181752]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.700.v20251023-1511]
+> Start JFace 텍스트 [org.eclipse.jface.text 3.29.0.v20251112-0859]
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.20.200.v20251125-0939]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
+2026-01-26 08:27:31.093 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.161.202601181752]
+2026-01-26 08:27:31.446 - Total database drivers: 127 (127)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.600.v20250613-0437]
+2026-01-26 08:27:31.617 - Create actions
+2026-01-26 08:27:32.945 - Initialize workbench window
+2026-01-26 08:27:32.986 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.171.202601181752]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.171.202601181752]
+Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_IncrementalCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Options in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceSelectionButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectedRangeRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_GlobalRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WholeWordCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceFindButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_BackwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CloseButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Replace_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CaseCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Status_replacements_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_title in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Direction in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Scope in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Find_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ForwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui.texteditor.EditorMessages
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.147.202601181752]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.800.v20250718-1505]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.208.202601181752]
+2026-01-26 08:27:39.592 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.168.202601181752]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.12.202601181752]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.12.202601181752]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.64.202601181752]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.256.202601181752]
+> Start 콘솔 [org.eclipse.ui.console 3.15.0.v20251113-1013]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.23.200.v20251107-0507]
+2026-01-26 08:27:40.201 - Connect with 'localhost' (mysql8-19be3364704-2990b7a92e577ae8)
+2026-01-26 08:27:40.202 - Connect with 'localhost' (mysql8-19be3364704-2990b7a92e577ae8)
+2026-01-26 08:27:40.277 - Execution context opened (localhost; Main; 0)
+2026-01-26 08:27:40.350 - Can't connect - connect/disconnect is in progress
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.195.202601181752]
+2026-01-26 08:27:40.698 - Execution context opened (localhost; Metadata; 1)
+2026-01-26 08:27:40.833 - Connected (mysql8-19be3364704-2990b7a92e577ae8, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-01-26 08:27:40.857 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 2)
+2026-01-26 08:27:40.870 - Execution context opened (localhost; Main; 3)
+2026-01-26 08:27:40.879 - Execution context opened (localhost; Metadata; 4)
+2026-01-26 08:27:40.954 - Connected (mysql8-19be3364704-2990b7a92e577ae8, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-01-26 08:27:41.046 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 5)
+2026-01-26 08:27:41.058 - Execution context closed (localhost, 2)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.149.202601181752]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.163.202601181752]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.149.202601181752]
+2026-01-26 08:27:50.270 - Execution context opened (localhost; SQLEditor <1_23 수업.sql>; 6)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.66.202601181752]
+2026-01-26 08:27:51.884 - Execution context opened (localhost; SQLEditor <11. SELECT문제_1_23수업>; 7)
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.155.202601181752]
+2026-01-26 08:29:46.003 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
+2026-01-26 08:29:46.008 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
+> Start 팀 지원 사용자 인터페이스 [org.eclipse.team.ui 3.11.300.v20251105-1148]
+2026-01-26 09:33:26.495 - Execution context opened (localhost; SQLEditor <Script-4.sql>; 8)
+2026-01-26 10:00:08.589 - Token location is outside of the document boundaries during query parsing
+2026-01-26 10:51:56.965 - Execution context closed (localhost, 7)
+2026-01-26 11:13:09.915 - Execution context closed (localhost, 6)
+2026-01-26 12:01:03.867 - Execution context opened (localhost; SQLEditor <Script-4.sql>; 9)
+2026-01-26 12:01:06.725 - Execution context opened (localhost; SQLEditor <Script-5.sql>; 10)
+2026-01-26 12:01:08.935 - Delete empty SQL script '\General\Scripts\Script-5.sql'
+2026-01-26 12:01:08.944 - Execution context closed (localhost, 10)
+2026-01-26 12:02:53.758 - Table 'employees.db_tcl' not found in metadata catalog
+2026-01-26 12:50:51.914 - End idle 1 transactions for mysql8-19be3364704-2990b7a92e577ae8
+2026-01-26 16:47:32.338 - Execution context closed (localhost, 8)
+2026-01-26 16:47:32.419 - Execution context closed (localhost, 9)
+2026-01-26 16:47:32.559 - Execution context closed (localhost, 5)
+2026-01-26 16:47:33.261 - Dispose navigator model
+2026-01-26 16:47:33.285 - DBeaver is stopping
+2026-01-26 16:47:33.288 - Stop instance server
+2026-01-26 16:47:34.296 - Instance server has been stopped
+2026-01-26 16:47:34.297 - DBeaver shutdown completed

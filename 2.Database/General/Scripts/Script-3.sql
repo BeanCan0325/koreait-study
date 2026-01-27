@@ -1,0 +1,57 @@
+-- Q10.직급 테이블을 참고하여 직접 테이블을 생성하는 DDL을 작성하세요. (CREATE)
+-- id 컬럼은 숫자, position_name 컬럼은 문자열 타입을 저장합니다.
+
+CREATE TABLE employees(
+member_id int primary KEY AUTO_INCREMENT,
+name varchar(300),
+age int,
+gender varchar(50),
+dept varchar(300),
+salary varchar(300),
+dept_id int,
+CONSTRAINT fk_dept FOREIGN KEY(dept_id)
+references position(dept_id)
+ON DELETE cascade
+);
+
+CREATE TABLE position(
+dept_id int PRIMARY KEY AUTO_INCREMENT,
+position_name varchar(300)
+);
+
+
+
+-- Q11. 모든 직원의 이름과 부서를 조회하세요. (SELECT)
+SELECT name, dept FROM employees;
+
+-- Q12.새로운 직원을 추가하세요. 추가할 직원의 이름은 짱구이며 나이는 5살 남자(M), 
+-- 개발팀에 속하며 연봉은 9800, 직급은 팀장입니다. (INSERT)
+INSERT INTO employees 
+values( 11,짱구,5,M,'개발팀',9800,5);
+
+-- Q13. 김민수의 연봉을 3500으로 수정하세요. (UPDATE)
+update employees
+ SET salary = 3500
+ WHERE name ='김민수';
+
+-- Q14. 김민수 데이터를 삭제하세요. (DELETE)
+DELETE FROM employees
+WHERE member_id = 1;
+ 
+-- Q15. 개발팀이면서 연봉이 3000 이상인 직원의 이름을 조회하세요. (AND)
+SELECT salary, dept FROM employees
+WHERE salary >= 3000 AND dept = '개발팀';
+		
+-- Q16. 기획팀이거나 마케팅팀인 직원의 이름을 조회하세요. (OR) 
+SELECT name FROM employees
+WHERE dept = '기획팀' or dept = '마케팅팀';
+ 
+-- @Q17. 이름이 ‘김’으로 시작하는 직원의 이름을 조회하세요. (LIKE) 
+SELECT name FROM employees
+WHERE dept = '기획팀' or dept = '마케팅팀';
+ 
+-- Q18. 직원의 이름과 직급명을 함께 조회하세요. (JOIN) 
+SELECT name, position_name FROM employees e
+JOIN POSITION p ON e.position_id = p.position_id
+
+
