@@ -32,9 +32,10 @@ public class EX04_switch {
 		}
 		
 		Scanner sc = new Scanner(System.in);
+		System.out.println("=========메뉴선택======");
+
 		int input = sc.nextInt();
 		
-		System.out.println("=========메뉴선택======");
 		switch (input) {
 		case 1: System.out.println("1.아아");
 		break;
@@ -42,6 +43,34 @@ public class EX04_switch {
 		break;
 		case 3: System.out.println("3.스무디");
 		break;
+		}
+		
+		System.out.print("요일입력");
+		int day = sc.nextInt();
+		
+		switch (day) {
+		case 1: 
+			System.out.println("평일");
+		}
+		
+int month = sc.nextInt();
+		
+		switch(month){
+			case 1 :
+			case 2 :
+				   System.out.println("겨울");  break; 
+			case 3 :
+			case 4 :
+			case 5 :
+				   System.out.println("봄"); break;
+			case 6 :  
+			case 7 :
+			case 8 :
+				   System.out.println("여름"); break;
+			case 9 :
+			case 10:
+			case 11:System.out.println("가을"); break;
+			case 12:
 		}
 		
 

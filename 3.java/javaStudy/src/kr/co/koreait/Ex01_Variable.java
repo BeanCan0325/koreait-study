@@ -109,6 +109,10 @@ public class Ex01_Variable {
 		System.out.printf("이름은 %s 입니다. %d살 입니다. %s 거주중입니다. \n",
 							name,age2,addr);
 		
+		// 나중에는 메모장에 로그파일로 저장해서 sout 안씀. 
+		// 필요한 날짜 별로 보거나 1일별로 메모장 파일이 새로 생기면서 로테이션되고 이런식으로 쓰게됨
+		
+		
 		double pi_double =3.14;
 		System.out.printf("pi_double의 값은 %2f 입니다.\n",pi_double);
 		System.out.printf("pi_double의 값은 %f 입니다.\n",pi_double);
@@ -137,13 +141,13 @@ public class Ex01_Variable {
 		// [스캐너의 메서드들]
 		// 1. nextInt(); 개행문자 전까지
 		// 2. nextFloat(); 개행문자 전까지
-		// 3. nextDouble();
+		// 3. nextDouble();   //엔터누르면 개행문자 자연스럽게 들어감. 
 		// 4. next();  -> 단어를 처리할 때 사용되며 공백전까지 입력받은 데이터 반환
-		// 5. nextLine(); 개행문자까지 (개행문자 빼버림)
+		// 5. nextLine(); 개행문자까지 (개행문자 가져오고, 빼버림)
 //						-> 문자열 처리할 때 사용되며 \n 기준으로 데이터를 반환
 //						-> 엔터입력시 \n들어감
-//		System.out.print("이름: " );
-//		String inputName = sc.next();
+//		System.out.print("이름: " );-> 이름쓰고 개행문자만 남음. 
+//		String inputName = sc.next(); -> 남은 개행문자 읽어서 동작안함
 //		System.out.println(inputName );
 		// 띄어쓰면 앞글자 밖에 안나옴
 		

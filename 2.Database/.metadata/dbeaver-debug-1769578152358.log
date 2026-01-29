@@ -1,25 +1,25 @@
-2026-01-25 16:42:48.721 - DBeaver 25.3.3.202601181752 is starting
-2026-01-25 16:42:48.727 - OS: Windows 11 10.0 (amd64)
-2026-01-25 16:42:48.728 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
-2026-01-25 16:42:48.728 - Install path: 'C:\Users\ssjle\AppData\Local\DBeaver'
-2026-01-25 16:42:48.729 - Instance path: 'file:/C:/study/2.Database/'
-2026-01-25 16:42:48.734 - Memory available 64Mb/1024Mb
-2026-01-25 16:42:48.767 - Create display
-2026-01-25 16:42:49.278 - Initialize desktop platform...
-2026-01-25 16:42:49.703 - BounceCastle bundle found. Use JCE provider BC
+2026-01-27 11:28:34.115 - DBeaver 25.3.3.202601181752 is starting
+2026-01-27 11:28:34.117 - OS: Windows 11 10.0 (amd64)
+2026-01-27 11:28:34.117 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-01-27 11:28:34.117 - Install path: 'C:\Users\ssjle\AppData\Local\DBeaver'
+2026-01-27 11:28:34.118 - Instance path: 'file:/C:/study/2.Database/'
+2026-01-27 11:28:34.121 - Memory available 64Mb/1024Mb
+2026-01-27 11:28:34.136 - Create display
+2026-01-27 11:28:34.308 - Initialize desktop platform...
+2026-01-27 11:28:34.458 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
 > Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
-> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.900.v20251104-0924]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.171.202601181752]
-2026-01-25 16:42:50.381 - Initialize base platform...
-2026-01-25 16:42:50.414 - send collected statistics
-2026-01-25 16:42:50.453 - Platform initialized (1175ms)
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.900.v20251104-0924]
+2026-01-27 11:28:34.752 - Initialize base platform...
+2026-01-27 11:28:34.763 - send collected statistics
+2026-01-27 11:28:34.779 - Platform initialized (470ms)
 > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
 > Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.500.v20250611-0855]
 > Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
-2026-01-25 16:42:51.442 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
-2026-01-25 16:42:51.629 - Starting instance server at http://localhost:54368
-2026-01-25 16:42:51.649 - Run workbench
+2026-01-27 11:28:35.285 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-01-27 11:28:35.356 - Starting instance server at http://localhost:53652
+2026-01-27 11:28:35.369 - Run workbench
 > Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
@@ -39,13 +39,13 @@ Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
 > Start JFace 텍스트 [org.eclipse.jface.text 3.29.0.v20251112-0859]
 > Start 기본 문서 편집기 [org.eclipse.ui.editors 3.20.200.v20251125-0939]
 > Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
-2026-01-25 16:42:59.605 - Configure workbench window
+2026-01-27 11:28:39.526 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.161.202601181752]
-2026-01-25 16:43:00.288 - Total database drivers: 127 (127)
+2026-01-27 11:28:39.720 - Total database drivers: 127 (127)
 > Start 도움말 시스템 코어 [org.eclipse.help 3.10.600.v20250613-0437]
-2026-01-25 16:43:00.539 - Create actions
-2026-01-25 16:43:02.602 - Initialize workbench window
-2026-01-25 16:43:02.660 - Finish initialization
+2026-01-27 11:28:39.829 - Create actions
+2026-01-27 11:28:40.759 - Initialize workbench window
+2026-01-27 11:28:40.781 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.171.202601181752]
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.171.202601181752]
 Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
@@ -73,7 +73,7 @@ Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui
 > Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.147.202601181752]
 > Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.800.v20250718-1505]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.208.202601181752]
-2026-01-25 16:43:10.698 - Open [https://dbeaver.io/product/version.xml]
+2026-01-27 11:28:44.682 - Open [https://dbeaver.io/product/version.xml]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.168.202601181752]
 > Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
 > Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
@@ -83,38 +83,19 @@ Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui
 > Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.256.202601181752]
 > Start 콘솔 [org.eclipse.ui.console 3.15.0.v20251113-1013]
 > Start 디버그 핵심 [org.eclipse.debug.core 3.23.200.v20251107-0507]
-2026-01-25 16:43:12.949 - Can't connect - connect/disconnect is in progress
-2026-01-25 16:43:12.954 - Connect with 'localhost' (mysql8-19be3364704-2990b7a92e577ae8)
-2026-01-25 16:43:13.132 - Execution context opened (localhost; Main; 0)
-> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.66.202601181752]
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.195.202601181752]
-2026-01-25 16:43:13.346 - Can't connect - connect/disconnect is in progress
-2026-01-25 16:43:13.958 - Can't connect - connect/disconnect is in progress
-2026-01-25 16:43:14.977 - Can't connect - connect/disconnect is in progress
-2026-01-25 16:43:15.596 - Execution context opened (localhost; Metadata; 1)
-2026-01-25 16:43:15.813 - Connected (mysql8-19be3364704-2990b7a92e577ae8, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
-2026-01-25 16:43:15.856 - Execution context opened (localhost; SQLEditor <1_23 수업.sql>; 2)
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.149.202601181752]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.163.202601181752]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.149.202601181752]
-2026-01-25 16:44:53.185 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 3)
-2026-01-25 16:47:45.753 - Execution context opened (localhost; SQLEditor <11. SELECT문제_1_23수업>; 4)
-> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.155.202601181752]
-2026-01-25 16:49:58.908 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-2026-01-25 16:49:58.909 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-2026-01-25 16:53:42.215 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-2026-01-25 16:53:42.215 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-2026-01-25 16:54:25.594 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-2026-01-25 16:54:25.595 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-2026-01-25 17:01:51.942 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-2026-01-25 17:01:51.943 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.155.202601181752]
-2026-01-25 17:04:11.338 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-2026-01-25 17:04:11.339 - Unsupported table class: org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog
-2026-01-25 17:29:12.245 - Can't get column 'password': Column 'password' not found.
-2026-01-25 22:45:58.290 - Execution context closed (localhost, 0)
-2026-01-25 22:45:58.303 - Execution context closed (localhost, 1)
-2026-01-25 22:45:58.316 - Execution context closed (localhost, 2)
-2026-01-25 22:45:58.327 - Execution context closed (localhost, 3)
-2026-01-25 22:45:58.338 - Execution context closed (localhost, 4)
-2026-01-25 22:45:58.340 - Disconnected (mysql8-19be3364704-2990b7a92e577ae8)
+2026-01-27 11:28:45.878 - Connect with 'localhost' (mysql8-19be3364704-2990b7a92e577ae8)
+2026-01-27 11:28:45.927 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.195.202601181752]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.66.202601181752]
+2026-01-27 11:28:46.393 - Execution context opened (localhost; Metadata; 1)
+2026-01-27 11:28:46.606 - Connected (mysql8-19be3364704-2990b7a92e577ae8, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-01-27 11:28:46.702 - Execution context opened (localhost; SQLEditor <Script-3.sql>; 2)
+2026-01-27 12:01:38.255 - Execution context closed (localhost, 2)
+2026-01-27 12:01:38.552 - Dispose navigator model
+2026-01-27 12:01:38.586 - DBeaver is stopping
+2026-01-27 12:01:38.592 - Stop instance server
+2026-01-27 12:01:39.601 - Instance server has been stopped
+2026-01-27 12:01:39.602 - DBeaver shutdown completed
