@@ -25,11 +25,24 @@ public class Ex19_2_Person {
 //		this.phone = phone;
 //	}
 	
+	
+	
 	Ex19_2_Person(String name, int age){
-		this.addr = "지구";
-		this.age = age;
-		this.phone = "아직없다";
-		this.name = name;
+//		this.addr = "지구";
+//		this.age = age;
+//		this.phone = "아직없다";
+//		this.name = name;
+//		this(name, age, "지구", "아직 없음");
+//		^생성자 재활용 [생성자 this()]
+//		- 같은 틀래스의 다른 생성자를 호출할 때 사용(생성자 재사용)
+//		- this() -> 내가 가진 생성자 호출하겠다. 
+//		- ^위 생성자 this()는 무조건 맨 위에 있어야함.
+
+//	[이름만 받는 생성자]
+//	- 나머지 값을 this() 활용해서 초기화 진행
+//	- age:0 , addr:"인천", phone: "010-1234-1234"
+//	- 매개변수 4개를 받는 생성자를 호출하여 초기화 진행
+		this("이름없음",0,"인천","010-1234-1234");
 	}
 	
 	Ex19_2_Person(String inputName, int inputAge, String inputAddr, String inputPhone)
