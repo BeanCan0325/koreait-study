@@ -13,7 +13,7 @@ public class Ex22_2_Person {
 	Ex22_2_Person(String name, int age){
 		this.name = name;
 		this.age = age;
-		this.memberId = memberId;
+	
 	}
 
 }
