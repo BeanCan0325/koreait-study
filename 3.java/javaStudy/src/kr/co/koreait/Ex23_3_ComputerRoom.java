@@ -15,5 +15,9 @@ public class Ex23_3_ComputerRoom {
 		cp2.powerOn();
 		cp3.powerOn();
 	}
+	
+	public void selectPowerOn(Ex23_3_Computer samsong) {
+		samsong.powerOn();
+	}
 
 }

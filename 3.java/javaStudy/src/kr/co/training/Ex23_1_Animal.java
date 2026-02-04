@@ -1,0 +1,8 @@
+package kr.co.training;
+
+public class Ex23_1_Animal {
+
+	void cry() {
+	
+	}
+}
