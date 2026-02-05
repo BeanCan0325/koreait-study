@@ -5,25 +5,59 @@ public class Warlord implements Character{
 	private CharacterAbility ability;
 	private MonsterAbility monster;
 
+//	--- 생성자
 	public Warlord() {
 		ability = new CharacterAbility(30,17,10); 
 	}
 	
-	void setMonster(MonsterAbility monster) {
+	public void setMonstser(MonsterAbility monster) {
 		this.monster = monster;
 	}
+	
+	public CharacterAbility getAbility() {
+		return ability;
+	}
+	
 
 	@Override
 	public void attack() {
-		double attackAmount = ability.getStr()* 1.3; 
+		
+		if (monster == null) {
+			System.out.println("------------------");
+			System.out.println("공격할 몬스터가 없습니다.");
+			return;
+		}
+		
+		
 		if(ability.getMp() < 6) {
 			System.out.println("---------------------");
-			System.out.println("마력이 부족해서 공격할 수 없다.");
-		} else if(monster.getHp() <= 0) { 
+			System.out.println("마력이 부족해서 공격할 수 없습니다.");
+			return;
+		}	
+			
+		double damage = ability.getStr()* 1.3; 
+		monster.decreaseHp(damage);
+		System.out.println("----------------------");
+		System.out.println("몬스터가 " + (int)damage + "의 피해를 입었습니다.");
+		
+		ability.decreaseMp(6);
+		System.out.println("현재 마력: "+ability.getMp());
+
+//		--- 몬스터 처치
+		
+		 if(monster.getHp() <= 0) { 
 			System.out.println("---------------------");
 			System.out.println("몬스터 사냥을 성공하셨습니다.");
-			ability.expUp(13);
-		}else {
+			ability.addExp(13);
+			return;
+			}
+		 
+// --- 몬스터 반격
+		 	
+		 	monster.attack(ability);
+		 
+//	--- 캐릭터 사망	 	
+		 	if (ability.)
 			monster.setHp(monster.getHp() - attackAmount);
 			System.out.println("---------------------");
 			System.out.printf("몬스터가  \"%f\"만큼의 피해를 입었습니다!",attackAmount);
