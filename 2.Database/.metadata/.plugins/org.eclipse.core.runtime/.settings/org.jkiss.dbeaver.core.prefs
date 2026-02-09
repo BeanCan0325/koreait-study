@@ -1,10 +1,14 @@
+connection.closeOnSleep=true
 dialog.default.folder=C\:\\study\\2.Database\\General\\Scripts
 driver.selector.orderBy=score
 eclipse.preferences.version=1
 org.jkiss.dbeaver.core.confirm.disconnect_txn=always
 org.jkiss.dbeaver.core.confirm.exit=always
+qm.logDirectory=C\:\\study\\2.Database\\.metadata
+resultset.presentation.active=spreadsheet
 sample.database.canceled=true
 sql.format.keywordCase=UPPER
+swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1769578161847
+ui.auto.update.check.time=1770359707009
 ui.show.tip.of.the.day.on.startup=false

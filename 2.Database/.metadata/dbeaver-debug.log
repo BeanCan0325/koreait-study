@@ -1,0 +1,435 @@
+2026-02-06 15:34:53.994 - DBeaver 25.3.3.202601181752 is starting
+2026-02-06 15:34:53.998 - OS: Windows 11 10.0 (amd64)
+2026-02-06 15:34:53.999 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-02-06 15:34:53.999 - Install path: 'C:\Users\ssjle\AppData\Local\DBeaver'
+2026-02-06 15:34:53.999 - Instance path: 'file:/C:/study/2.Database/'
+2026-02-06 15:34:54.005 - Memory available 64Mb/1024Mb
+2026-02-06 15:34:54.032 - Create display
+2026-02-06 15:34:54.464 - Initialize desktop platform...
+2026-02-06 15:34:54.837 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
+> Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.900.v20251104-0924]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.171.202601181752]
+2026-02-06 15:34:55.398 - Initialize base platform...
+2026-02-06 15:34:55.419 - send collected statistics
+2026-02-06 15:34:55.455 - Platform initialized (990ms)
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.500.v20250611-0855]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
+2026-02-06 15:34:56.221 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-02-06 15:34:56.494 - Starting instance server at http://localhost:53451
+2026-02-06 15:34:56.522 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.900.v20251023-1511]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.800.v20250916-0937]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.700.v20250916-0927]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250910-1205]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.600.v20251023-0615]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.900.v20251007-0832]
+Warning: NLS unused message: WorkbenchPreference_reuseEditorsThreshold in: org.eclipse.ui.internal.messages
+Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.1000.v20251114-0005]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.14.202601181752]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.73.202601181752]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.700.v20251023-1511]
+> Start JFace 텍스트 [org.eclipse.jface.text 3.29.0.v20251112-0859]
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.20.200.v20251125-0939]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
+2026-02-06 15:35:01.395 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.161.202601181752]
+2026-02-06 15:35:01.594 - Total database drivers: 127 (127)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.600.v20250613-0437]
+2026-02-06 15:35:01.679 - Create actions
+2026-02-06 15:35:02.729 - Initialize workbench window
+2026-02-06 15:35:02.747 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.171.202601181752]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.171.202601181752]
+Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_IncrementalCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Options in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceSelectionButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectedRangeRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_GlobalRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WholeWordCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceFindButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_BackwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CloseButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Replace_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CaseCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Status_replacements_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_title in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Direction in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Scope in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Find_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ForwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui.texteditor.EditorMessages
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.147.202601181752]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.800.v20250718-1505]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.208.202601181752]
+2026-02-06 15:35:07.022 - Open [https://dbeaver.io/product/version.xml]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.168.202601181752]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.12.202601181752]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.12.202601181752]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.64.202601181752]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.256.202601181752]
+> Start 콘솔 [org.eclipse.ui.console 3.15.0.v20251113-1013]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.23.200.v20251107-0507]
+2026-02-06 15:35:07.801 - Connect with 'localhost' (mysql8-19be3364704-2990b7a92e577ae8)
+2026-02-06 15:35:07.837 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.195.202601181752]
+2026-02-06 15:35:08.255 - Execution context opened (localhost; Metadata; 1)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.66.202601181752]
+2026-02-06 15:35:08.412 - Connected (mysql8-19be3364704-2990b7a92e577ae8, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+2026-02-06 15:35:08.466 - Execution context opened (localhost; SQLEditor <Script-4.sql>; 2)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.149.202601181752]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.163.202601181752]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.149.202601181752]
+> Start DBeaver Generic UI Plug-in [org.jkiss.dbeaver.ext.generic.ui 1.0.147.202601181752]
+> Start DBeaver Generic Plug-in [org.jkiss.dbeaver.ext.generic 2.3.257.202601181752]
+> Start DBeaver SQLite Model [org.jkiss.dbeaver.ext.sqlite 1.0.220.202601181752]
+2026-02-06 15:40:50.905 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-02-06 15:42:37.534 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-02-06 15:42:47.426 - Open [https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/maven-metadata.xml]
+2026-02-06 15:42:47.523 - Open [https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.51.1.0/sqlite-jdbc-3.51.1.0.pom]
+2026-02-06 15:42:47.554 - Open [https://repo1.maven.org/maven2/org/junit/junit-bom/5.12.2/junit-bom-5.12.2.pom]
+2026-02-06 15:42:51.442 - Open [https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.51.1.0/sqlite-jdbc-3.51.1.0.jar]
+2026-02-06 15:42:51.951 - Connect with 'app.db' (sqlite_jdbc-19c31ae9499-766c7cdaf9f71d17)
+2026-02-06 15:42:51.962 - Execution context opened (app.db; Main; 3)
+2026-02-06 15:42:52.103 - Connected (sqlite_jdbc-19c31ae9499-766c7cdaf9f71d17, SQLite JDBC [3.51.1.0])
+2026-02-06 15:43:30.930 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:43:30.931 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:43:30.931 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:43:30.931 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:43:30.931 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:44:53.986 - Error loading SQLite sequences.
+org.jkiss.dbeaver.DBDatabaseException: SQL Error: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:146)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:76)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer.getSequences(GenericObjectContainer.java:367)
+	at org.jkiss.dbeaver.ext.generic.model.GenericDataSource.getSequences(GenericDataSource.java:456)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.extractPropertyValue(DBNDatabaseNode.java:1036)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1108)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadTreeItems(DBNDatabaseNode.java:649)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:462)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:221)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:110)
+	at org.jkiss.dbeaver.ui.navigator.itemlist.ItemListControl$ItemLoadService.evaluate(ItemListControl.java:285)
+	at org.jkiss.dbeaver.ui.navigator.itemlist.ItemListControl$ItemLoadService.evaluate(ItemListControl.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:99)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:264)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:506)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:113)
+	... 19 more
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: sqlite_sequence)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:28)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.lambda$1(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.<init>(JDBCStatementImpl.java:79)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.<init>(JDBCPreparedStatementImpl.java:85)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCFactoryDefault.createPreparedStatement(JDBCFactoryDefault.java:55)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.createPreparedStatementImpl(JDBCConnectionImpl.java:737)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCUtils.queryString(JDBCUtils.java:617)
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:262)
+	... 22 more
+2026-02-06 15:45:30.482 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:45:30.483 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:45:30.483 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:45:30.483 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:45:30.483 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:45:30.484 - Error loading SQLite sequences.
+org.jkiss.dbeaver.DBDatabaseException: SQL Error: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:146)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:76)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer.getSequences(GenericObjectContainer.java:367)
+	at org.jkiss.dbeaver.ext.generic.model.GenericDataSource.getSequences(GenericDataSource.java:456)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.extractPropertyValue(DBNDatabaseNode.java:1036)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1108)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadTreeItems(DBNDatabaseNode.java:649)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:462)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.reloadChildren(DBNDatabaseNode.java:905)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:499)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:466)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:466)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.reloadChildren(DBNDatabaseNode.java:905)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.refreshNodeContent(DBNDatabaseNode.java:387)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.refreshNode(DBNDatabaseNode.java:362)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.refreshNode(DBNDataSource.java:279)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerRefresh$1.run(NavigatorHandlerRefresh.java:190)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:264)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:506)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:113)
+	... 22 more
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: sqlite_sequence)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:28)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.lambda$1(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.<init>(JDBCStatementImpl.java:79)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.<init>(JDBCPreparedStatementImpl.java:85)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCFactoryDefault.createPreparedStatement(JDBCFactoryDefault.java:55)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.createPreparedStatementImpl(JDBCConnectionImpl.java:737)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCUtils.queryString(JDBCUtils.java:617)
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:262)
+	... 25 more
+2026-02-06 15:46:20.715 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:20.716 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:20.716 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:20.716 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:20.716 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:20.717 - Error loading SQLite sequences.
+org.jkiss.dbeaver.DBDatabaseException: SQL Error: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:146)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:76)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer.getSequences(GenericObjectContainer.java:367)
+	at org.jkiss.dbeaver.ext.generic.model.GenericDataSource.getSequences(GenericDataSource.java:456)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.extractPropertyValue(DBNDatabaseNode.java:1036)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1108)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadTreeItems(DBNDatabaseNode.java:649)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:462)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.reloadChildren(DBNDatabaseNode.java:905)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:499)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:466)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:466)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.reloadChildren(DBNDatabaseNode.java:905)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.refreshNodeContent(DBNDatabaseNode.java:387)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.refreshNode(DBNDatabaseNode.java:362)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.refreshNode(DBNDataSource.java:279)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerRefresh$1.run(NavigatorHandlerRefresh.java:190)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:264)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:506)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:113)
+	... 22 more
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: sqlite_sequence)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:28)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.lambda$1(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.<init>(JDBCStatementImpl.java:79)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.<init>(JDBCPreparedStatementImpl.java:85)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCFactoryDefault.createPreparedStatement(JDBCFactoryDefault.java:55)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.createPreparedStatementImpl(JDBCConnectionImpl.java:737)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCUtils.queryString(JDBCUtils.java:617)
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:262)
+	... 25 more
+2026-02-06 15:46:40.824 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:40.825 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:40.825 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:40.825 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:40.825 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:40.827 - Error loading SQLite sequences.
+org.jkiss.dbeaver.DBDatabaseException: SQL Error: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:146)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:76)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer.getSequences(GenericObjectContainer.java:367)
+	at org.jkiss.dbeaver.ext.generic.model.GenericDataSource.getSequences(GenericDataSource.java:456)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.extractPropertyValue(DBNDatabaseNode.java:1036)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1108)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadTreeItems(DBNDatabaseNode.java:649)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:462)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.reloadChildren(DBNDatabaseNode.java:905)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:499)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:466)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:466)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.reloadChildren(DBNDatabaseNode.java:905)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.refreshNodeContent(DBNDatabaseNode.java:387)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.refreshNode(DBNDatabaseNode.java:362)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.refreshNode(DBNDataSource.java:279)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerRefresh$1.run(NavigatorHandlerRefresh.java:190)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:264)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:506)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:113)
+	... 22 more
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: sqlite_sequence)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:28)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.lambda$1(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.<init>(JDBCStatementImpl.java:79)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.<init>(JDBCPreparedStatementImpl.java:85)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCFactoryDefault.createPreparedStatement(JDBCFactoryDefault.java:55)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.createPreparedStatementImpl(JDBCConnectionImpl.java:737)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCUtils.queryString(JDBCUtils.java:617)
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:262)
+	... 25 more
+2026-02-06 15:46:46.431 - 	Invalidate context 'Main' for sqlite_jdbc-19c31ae9499-766c7cdaf9f71d17 (BEFORE_INVALIDATE)
+2026-02-06 15:46:46.447 - Statement 104 (STATEMENT SELECT 1 FROM sqlite_sequence) is not closed (jdbc:sqlite:C:\study\3.java\javaStudy\app.db)
+2026-02-06 15:46:46.449 - Statement 93 (STATEMENT SELECT 1 FROM sqlite_sequence) is not closed (jdbc:sqlite:C:\study\3.java\javaStudy\app.db)
+2026-02-06 15:46:46.450 - Statement 82 (STATEMENT SELECT 1 FROM sqlite_sequence) is not closed (jdbc:sqlite:C:\study\3.java\javaStudy\app.db)
+2026-02-06 15:46:46.451 - Statement 71 (STATEMENT SELECT 1 FROM sqlite_sequence) is not closed (jdbc:sqlite:C:\study\3.java\javaStudy\app.db)
+2026-02-06 15:46:46.452 - Execution context closed (app.db, 3)
+2026-02-06 15:46:46.453 - 	Invalidate context 'Main' for sqlite_jdbc-19c31ae9499-766c7cdaf9f71d17 (INVALIDATE)
+2026-02-06 15:46:46.455 - 	Invalidate context 'Main' for sqlite_jdbc-19c31ae9499-766c7cdaf9f71d17 (AFTER_INVALIDATE)
+2026-02-06 15:46:46.457 - Connections reopened: 1 (of 1)
+2026-02-06 15:46:49.346 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:49.347 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:49.347 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:49.347 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:49.347 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 15:46:49.348 - Error loading SQLite sequences.
+org.jkiss.dbeaver.DBDatabaseException: SQL Error: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:146)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:76)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer.getSequences(GenericObjectContainer.java:367)
+	at org.jkiss.dbeaver.ext.generic.model.GenericDataSource.getSequences(GenericDataSource.java:456)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.extractPropertyValue(DBNDatabaseNode.java:1036)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1108)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode$PropertyValueReader.run(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:189)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadTreeItems(DBNDatabaseNode.java:649)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:462)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.reloadChildren(DBNDatabaseNode.java:905)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:499)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:466)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.loadChildren(DBNDatabaseNode.java:466)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.reloadChildren(DBNDatabaseNode.java:905)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.refreshNodeContent(DBNDatabaseNode.java:387)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.refreshNode(DBNDatabaseNode.java:362)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.refreshNode(DBNDataSource.java:279)
+	at org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerRefresh$1.run(NavigatorHandlerRefresh.java:190)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Error loading SQLite sequences. Probably sqlite_sequence info table doesn't exist yet. Please create table with AUTOINCREMENT column first.
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:264)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:506)
+	at org.jkiss.dbeaver.ext.generic.model.GenericObjectContainer$GenericSequenceCache.prepareObjectsStatement(GenericObjectContainer.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:113)
+	... 22 more
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: sqlite_sequence)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+	at org.sqlite.core.DB.throwex(DB.java:1150)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+	at org.sqlite.core.DB.prepare(DB.java:264)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:28)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.lambda$1(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.<init>(JDBCStatementImpl.java:79)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.<init>(JDBCPreparedStatementImpl.java:85)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCFactoryDefault.createPreparedStatement(JDBCFactoryDefault.java:55)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.createPreparedStatementImpl(JDBCConnectionImpl.java:737)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:261)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCConnectionImpl.prepareStatement(JDBCConnectionImpl.java:1)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCUtils.queryString(JDBCUtils.java:617)
+	at org.jkiss.dbeaver.ext.sqlite.model.SQLiteMetaModel.prepareSequencesLoadStatement(SQLiteMetaModel.java:262)
+	... 25 more
+2026-02-06 15:46:53.439 - Statement 115 (STATEMENT SELECT 1 FROM sqlite_sequence) is not closed (jdbc:sqlite:C:\study\3.java\javaStudy\app.db)
+2026-02-06 15:46:53.441 - Execution context closed (app.db, 3)
+2026-02-06 15:46:53.442 - Disconnected (sqlite_jdbc-19c31ae9499-766c7cdaf9f71d17)
+2026-02-06 15:46:59.340 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2026-02-06 15:47:20.794 - Connect with 'app.db' (sqlite_jdbc-19c31b433ef-74f88631c90ed20a)
+2026-02-06 15:47:20.796 - Execution context opened (app.db; Main; 4)
+2026-02-06 15:47:20.802 - Connected (sqlite_jdbc-19c31b433ef-74f88631c90ed20a, SQLite JDBC [3.51.1.0])
+2026-02-06 16:52:04.923 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 16:52:04.924 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 16:52:04.924 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 16:52:04.924 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 16:52:04.924 - Object 'sqlite_schema' not found in struct cache (TableCache)
+2026-02-06 16:52:04.925 - Object 'sqlite_sequence' not found in struct cache (TableCache)
+2026-02-06 16:52:04.925 - Object 'sqlite_sequence' not found in struct cache (TableCache)
+> Start org.jkiss.bundle.gis [org.jkiss.bundle.gis 2.0.8]
+> Start DBeaver SQLite UI [org.jkiss.dbeaver.ext.sqlite.ui 1.0.141.202601181752]
+2026-02-06 17:53:45.187 - End idle 1 transactions for mysql8-19be3364704-2990b7a92e577ae8
+2026-02-06 23:21:25.503 - Execution context closed (app.db, 4)
+2026-02-06 23:21:25.513 - Disconnected (sqlite_jdbc-19c31b433ef-74f88631c90ed20a)
+2026-02-06 23:21:25.599 - Execution context closed (localhost, 0)
+2026-02-06 23:21:25.615 - Execution context closed (localhost, 1)
+2026-02-06 23:21:25.630 - Execution context closed (localhost, 2)
+2026-02-06 23:21:25.630 - Disconnected (mysql8-19be3364704-2990b7a92e577ae8)
+2026-02-06 23:21:28.190 - Application goes into sleep mode
+2026-02-06 23:29:59.975 - Application wakes
+2026-02-07 07:13:35.991 - Application goes into sleep mode
+2026-02-09 09:37:36.140 - Application wakes

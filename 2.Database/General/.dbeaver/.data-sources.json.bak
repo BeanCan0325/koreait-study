@@ -26,7 +26,7 @@
 				"auth-model": "native"
 			}
 		},
-		"sqlite_jdbc-19c31ae9499-766c7cdaf9f71d17": {
+		"sqlite_jdbc-19c31b433ef-74f88631c90ed20a": {
 			"provider": "sqlite",
 			"driver": "sqlite_jdbc",
 			"name": "app.db",
@@ -37,6 +37,31 @@
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"closeIdleConnection": true
+			}
+		},
+		"mysql8-19c411d9501-40e715b99422dcdf": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost 2",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
+					"allowPublicKeyRetrieval": "true"
+				},
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
 			}
 		}
 	},

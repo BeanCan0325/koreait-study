@@ -1,31 +1,6 @@
 {
 	"folders": {},
 	"connections": {
-		"mysql8-19be3364704-2990b7a92e577ae8": {
-			"provider": "mysql",
-			"driver": "mysql8",
-			"name": "localhost",
-			"save-password": true,
-			"configuration": {
-				"host": "localhost",
-				"port": "3306",
-				"url": "jdbc:mysql://localhost:3306/",
-				"configurationType": "MANUAL",
-				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
-				"type": "dev",
-				"closeIdleConnection": true,
-				"properties": {
-					"connectTimeout": "20000",
-					"rewriteBatchedStatements": "true",
-					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
-					"allowPublicKeyRetrieval": "true"
-				},
-				"provider-properties": {
-					"@dbeaver-show-all-dbs@": "true"
-				},
-				"auth-model": "native"
-			}
-		},
 		"sqlite_jdbc-19c31b433ef-74f88631c90ed20a": {
 			"provider": "sqlite",
 			"driver": "sqlite_jdbc",
@@ -38,6 +13,25 @@
 				"type": "dev",
 				"closeIdleConnection": true
 			}
+		},
+		"mysql8-19c4275315b-6c218b5a4ee5446e": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-all-dbs@": "true"
+				},
+				"auth-model": "native"
+			}
 		}
 	},
 	"connection-types": {
@@ -45,7 +39,7 @@
 			"name": "Development",
 			"color": "255,255,255",
 			"description": "Regular development database",
-			"auto-commit": false,
+			"auto-commit": true,
 			"confirm-execute": false,
 			"confirm-data-change": false,
 			"smart-commit": false,

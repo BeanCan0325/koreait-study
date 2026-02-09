@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	Hello, World!
+	<p th:text="'Welcome, ' + ${name}"></p>
+	<p th:utext="${message}"></p>
+	<iframe src="https://nirsa.tistory.com/"></iframe>
+	
+	
+	<p th:if="${name == '홍길동'}">홍길동 맞음! </p>
+	<p th:unless="${name == '홍길동'}">홍길동 아님! </p>
+	
+	<ul>
+		<li th:each="item : ${items}" th:text="${item}"> </li>
+		<!--  list에 있는걸 꺼내서 개개의 변수에 넣는것 -->
+	</ul>
+</body>
+</html>
