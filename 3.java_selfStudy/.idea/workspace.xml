@@ -6,11 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="9fa54c8f-c02a-413e-ba1a-0c1c35b1e946" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/.activity-logs/1770359705_3647dddf-892f-4bc8-90b2-17c964adf916.log" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/.activity-logs/1770359705_3647dddf-892f-4bc8-90b2-17c964adf916.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/.config/column_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/.config/column_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/.config/entity-editor-tabs.json" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/.config/entity-editor-tabs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.core.resources/.projects/General/.syncinfo.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.core.resources/5.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.core.resources/5.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/dbeaver-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/dbeaver-debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.Database/.metadata/dbeaver-instance.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/.metadata/dbeaver-instance.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day2_2/p.java" beforeDir="false" afterPath="$PROJECT_DIR$/day2_2/p.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.Database/General/Scripts/Script-6.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../2.Database/General/Scripts/Script-6.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/java/kr/co/study/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/java/kr/co/study/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/java/kr/co/study/member/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/java/kr/co/study/member/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/java/kr/co/study/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/java/kr/co/study/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/java/kr/co/study/member/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/java/kr/co/study/member/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/announcement/announcement-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/announcement/announcement-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/announcement/announcement-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/announcement/announcement-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/announcement/announcement-write.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/announcement/announcement-write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/announcement/announcements.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/announcement/announcements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/board/board-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/board/board-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/board/board-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/board/board-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/board/board-write.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/board/board-write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/board/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/board/board.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/find-id.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/find-id.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/find-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/find-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../4.spring/study/src/main/resources/templates/pages/member/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +142,7 @@
       <workItem from="1770007880855" duration="2654000" />
       <workItem from="1770389061848" duration="968000" />
       <workItem from="1770597870137" duration="5000" />
+      <workItem from="1770711597141" duration="26000" />
     </task>
     <servers />
   </component>

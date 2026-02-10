@@ -90,6 +90,13 @@
 		<column name="Max connections" visible="true" order="6" width="106"/>
 		<column name="Max user connections" visible="true" order="7" width="132"/>
 	</item>
+	<item id="NodeList/MySQLView">
+		<column name="View Name" visible="true" order="0" width="100"/>
+		<column name="Check Option" visible="true" order="1" width="100"/>
+		<column name="Updatable" visible="true" order="2" width="100"/>
+		<column name="Definer" visible="true" order="3" width="100"/>
+		<column name="Algorithm" visible="true" order="4" width="100"/>
+	</item>
 	<item id="NodeList/SQLiteTable">
 		<column name="테이블명" visible="true" order="0" width="100"/>
 		<column name="테이블 타입" visible="true" order="1" width="100"/>

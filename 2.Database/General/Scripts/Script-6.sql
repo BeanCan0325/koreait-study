@@ -1,5 +1,9 @@
-CREATE TABLE MEMBER
-( id BIGINT NOT NULL AUTO_INCREMENT COMMENT 'PK',
+
+
+USE study_project;
+
+CREATE TABLE member (
+    id BIGINT NOT NULL AUTO_INCREMENT COMMENT 'PK',
     user_id VARCHAR(50) NOT NULL COMMENT '로그인 아이디',
     user_name VARCHAR(50) NOT NULL COMMENT '이름',
     email VARCHAR(100) NOT NULL COMMENT '이메일',
@@ -10,3 +14,5 @@ CREATE TABLE MEMBER
     UNIQUE KEY uk_member_username (user_id),
     UNIQUE KEY uk_member_email (email)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+DELETE TABLE member;
