@@ -10,5 +10,5 @@ sample.database.canceled=true
 sql.format.keywordCase=UPPER
 swt.client.browser=EDGE
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1770359707009
+ui.auto.update.check.time=1770770141069
 ui.show.tip.of.the.day.on.startup=false
