@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #internal-style {
+            color: cornflowerblue;
+            font-size: 12px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="01.style.css">
+</head>
+<body>
+<h2>CSS (Cascading Style Sheets)</h2>
+<p> HTML을 꾸며주기 위해 사용되는 스타일 시트</p>
+
+<!-- publisher가 많이 쓰고 프론트엔드 개발자도 씀 -->
+
+<!--
+    [CSS 사용방식]
+        1. inline 방식
+          : HTML 요소의 Style속성을 사용하여 직접 css 스타일을 지정하는 방식
+          : css 적용 우선순위 매우 높음
+-->
+<p style="color: chocolate; font-size: 22px;">🧊inline 스타일 방식</p>
+<!-- inline 왠만하면 안쓰는게 좋음-->
+
+<!--        2. 내부 스타일 시트 방식
+               : html 문서의 head 태그 내에 <style>을 활용하여 css 스타일 지정-->
+<p id="internal-style">🧊내부스타일 방식</p>
+
+<!--        3.  외부 스타일 시트 방식
+                : css 스타일을 별도의 외부 파일로 만들고 가져와서 사용하는 방식-->
+<p id="external-style">🧊external-style 방식입니다</p>
+
+<h1 class="color_blue"> 🧊CSS</h1>
+<p id="aqua_font"
+    >🧊 Hello, CSS!</p>
+<h2 class="color_blue small_font"> 🧊HTML</h2>
+<p>🧊 Hello, HTML!</p>
+
+<hr>
+<input type="text">
+<input type="password" class="input-password">
+<p>🧊텍스트1</p>
+<p class="color_red">🧊텍스트2</p>
+
+<hr>
+<button type="button" class="btn">🧊버튼1</button>
+<button type="rest" class="btn">🧊버튼2</button>
+
+<hr>
+<div>
+    <h2>🧊h2 요소입니다.</h2>
+
+    <ul>
+        <li>
+            <p>아이템1</p>
+        </li>
+        <li>
+            <h2>🧊아이템2</h2>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <p>🧊아이템3</p>
+        </li>
+        <li>
+            <h2>🧊아이템4</h2>
+        </li>
+    </ul>
+</div>
+
+<hr>
+<button class="reaction-btn">버튼</button>
+<input type="text" class="reaction-input">
+
+
+</body>
+</html>

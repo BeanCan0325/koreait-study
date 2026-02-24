@@ -1,0 +1,68 @@
+#external-style {
+    color: #09464e;
+    font-size: 26px;
+}
+
+/* [전체 선택자]*/
+*{
+    color: darkmagenta;
+}
+
+/*[클래스 선택자]*/
+.color_blue{
+    color: blue;
+}
+
+.small_font{
+    font-size: 122px;
+}
+
+/*[아이디 선택자]  : 아이디는 무조건 고유해야 한다.*/
+#aqua_font{
+    color: aqua;
+}
+
+/*[속성 선택자]*/
+/*input[type="text"] {*/
+/*    background-color: chocolate;*/
+/*}*/
+
+.input-password[type="password"] {
+    background-color: darkkhaki;
+
+}
+
+/*[그룹 선택자 ","]*/
+.btn, .color_red{
+    color: greenyellow;
+}
+
+/*[자식 선택자 ">" :바로 아래에있는애만]*/
+div > h2{
+    color: deeppink;
+}
+
+/*[후손 선택자 "(그냥띄어쓰기)" :바로 아래부터 안쪽까지 다 ]*/
+div p{
+    color: cornflowerblue;
+}
+
+/*[동위 선택자 "~","+"]*/
+h2 ~ ul{
+    color: indianred;
+}
+
+/*[반응선택자]*/
+.reaction-btn:hover{
+    background-color: crimson;
+
+}
+
+.reaction-btn:active {
+    background-color: darkslategrey;
+}
+
+.reaction-input:focus {
+    color: firebrick;
+    cursor: wait;
+}
