@@ -1,0 +1,16 @@
+use study;
+
+CREATE TABLE board_file (
+	id bigint auto_increment PRIMARY KEY,
+	board_id bigint NOT NULL,
+	original_file_name varchar(255) NOT NULL,
+	stored_file_name varchar(255) NOT NULL unique,
+	content_type varchar(100) NULL,
+	file_size bigint NOT NULL DEFAULT 0,
+	file_path varchar(500) NOT NULL,
+	created_at datetime DEFAULT current_timestamp,
+	updated_at datetime DEFAULT current_timestamp,
+	CONSTRAINT fk_board_file_id
+	 	FOREIGN KEY (board_id) REFERENCES board(id)
+	 	ON DELETE cascade
+);

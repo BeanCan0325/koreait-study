@@ -47,7 +47,7 @@ div p{
     color: cornflowerblue;
 }
 
-/*[동위 선택자 "~","+"]*/
+/*[동위 선택자 "~","+"(같은 위치에 있는거)/+는 하나만/~는 동위관계 전체]*/
 h2 ~ ul{
     color: indianred;
 }

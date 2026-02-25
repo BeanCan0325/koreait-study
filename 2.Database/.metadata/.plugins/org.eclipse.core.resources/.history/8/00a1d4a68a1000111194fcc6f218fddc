@@ -1,0 +1,61 @@
+CREATE DATABASE spring_project;
+use spring_project;
+
+show tables;
+
+CREATE TABLE members (
+  member_id BIGINT NOT NULL AUTO_INCREMENT,
+  user_id VARCHAR(100) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  user_name VARCHAR(50) NOT NULL,
+  birth_date DATETIME NULL,
+  phone_number VARCHAR(50) NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (member_id),
+  UNIQUE KEY uq_members_user_id (user_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='회원';
+
+select * from members;
+
+CREATE TABLE books (
+  book_id BIGINT NOT NULL AUTO_INCREMENT COMMENT '도서ID',
+  title VARCHAR(255) NOT NULL COMMENT '도서제목',
+  author VARCHAR(100) NOT NULL COMMENT '도서저자',
+  publisher VARCHAR(100) NOT NULL COMMENT '도서출판사',
+  PRIMARY KEY (book_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='도서정보';
+
+select * from books;
+
+CREATE TABLE borrowing (
+  borrow_key BIGINT NOT NULL AUTO_INCREMENT,
+  member_id  BIGINT NOT NULL,
+  book_id    BIGINT NOT NULL,
+  is_borrowed BOOLEAN NOT NULL DEFAULT TRUE,
+  PRIMARY KEY (borrow_key),
+  FOREIGN KEY (member_id) REFERENCES members(member_id),
+  FOREIGN KEY (book_id) REFERENCES books(book_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='대여';
+
+select * from borrowing;
+
+USE spring_project;
+
+INSERT INTO books (title, author, publisher) VALUES
+('클린 코드', '로버트 마틴', '인사이트'),
+('객체지향의 사실과 오해', '조영호', '위키북스'),
+('디자인 패턴', 'GoF', '프로텍미디어'),
+('스프링 부트와 JPA 활용', '김영한', '인프런'),
+('자바의 정석', '남궁성', '도우출판'),
+('이펙티브 자바', '조슈아 블로크', '인사이트'),
+('HTTP 완벽 가이드', '데이빗 고울리', '인사이트'),
+('데이터베이스 개론', '김연희', '한빛아카데미'),
+('알고리즘 문제 해결 전략', '구종만', '인사이트'),
+('리팩터링', '마틴 파울러', '한빛미디어'),
+('파이썬 크래시 코스', '에릭 마테스', '한빛미디어'),
+('컴퓨터 구조와 운영체제', '강민철', '한빛미디어'),
+('네트워크 하향식 접근', '쿠로세', '퍼스트북'),
+('모던 자바 인 액션', '라울-게이브리얼 우르마', '한빛미디어'),
+('도메인 주도 설계', '에릭 에반스', '위키북스');
+

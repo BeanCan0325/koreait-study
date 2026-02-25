@@ -1,23 +1,56 @@
 package kr.co.studyProject.controller;
 
-import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
 
+import jakarta.servlet.http.HttpSession;
+import kr.co.studyProject.dto.ReqLoginDTO;
+import kr.co.studyProject.dto.ReqRegisterDTO;
+import kr.co.studyProject.dto.ResLoginDTO;
 import kr.co.studyProject.service.MemberService;
+import lombok.RequiredArgsConstructor;
 
-@RestController // 나 웨이터야 하고 명찰을 다는 것.
-@PostMapping("/api/member") // 회원가입하실 분은 이쪽 창구로 오세요. 하고 펫말을 거는것.
-@RequestBody
+@Controller
+@RequiredArgsConstructor
 public class MemberController {
 
 	private final MemberService memberService;
 
-	@PostMappind("/register")
-			public ResponseEntity.ok("회원가입 성공");
-			catch (Exception e){
-	{
-		return ResponseEntity.badRequest().body(e.getMessage());
+	@GetMapping("/signup")
+	public String signupForm() {
+		return "signup";
+		
 	}
+	
+	
+	
+	
+	@PostMapping("/signup")
+	public String register(ReqRegisterDTO register) {
+		try {
+			memberService.register(register);
+			return "redirect:/login";
+		} catch (Exception e){
+			e.printStackTrace();
+			return "redirect:/signup";
+	    }
+	}
+	
+	
+	@GetMapping("/login/form")
+	public String loginform() {
+		return "login";
+	}
+	
+	@PostMapping("/login")
+	public String login(ReqLoginDTO request, HttpSession session) {
+		
+		ResLoginDTO response = memberService.login(request);
+		if (response == null) {
+			return "redirect:/login";
+	}
+		session.setAttribute("LOGIN_USER", response);
+		return "redirect:/";
+}
 }

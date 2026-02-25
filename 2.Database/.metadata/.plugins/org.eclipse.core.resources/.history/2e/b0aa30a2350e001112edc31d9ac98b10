@@ -1,0 +1,38 @@
+CREATE TABLE `borrowing` (
+	`id`	bigint auto_increment	NULL,
+	`id2`	bigint auto_increment	NOT NULL,
+	`Field`	boolean	NULL
+);
+
+CREATE TABLE `Books` (
+	`id`	bigint auto_increment	NOT NULL,
+	`title`	varchar(255)	NULL	COMMENT '도서제목',
+	`author`	varchar(100)	NULL	COMMENT '도서저자',
+	`publisher`	varchar(100)	NULL	COMMENT '도서출판사'
+);
+
+CREATE TABLE `Members` (
+	`id`	bigint auto_increment	NULL,
+	`user_id`	varchar(100)	NULL	COMMENT 'UQ 설정',
+	`password`	varchar(255)	NULL	COMMENT '회원비밀번호',
+	`user_name`	varchar(50)	NULL	COMMENT '회원이름',
+	`birth_date`	datetime	NULL	COMMENT '회원생년월일',
+	`phone`	varchar(50)	NULL	COMMENT '회원연락처',
+	`created_at`	datetime	NULL,
+	`updated_at`	datetime	NULL
+);
+
+ALTER TABLE `borrowing` ADD CONSTRAINT `FK_Members_TO_borrowing_1` FOREIGN KEY (
+	`id`
+)
+REFERENCES `Members` (
+	`id`
+);
+
+ALTER TABLE `borrowing` ADD CONSTRAINT `FK_Books_TO_borrowing_1` FOREIGN KEY (
+	`id2`
+)
+REFERENCES `Books` (
+	`id`
+);
+

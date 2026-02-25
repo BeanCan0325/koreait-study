@@ -17,20 +17,19 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Board {
-	
-	@Id //pk 지정
-	@GeneratedValue(strategy=GenerationType.IDENTITY)//auto_increment로 생각하면됨
+	@Id // PK 지정
+	@GeneratedValue(strategy=GenerationType.IDENTITY) // auto_increment
 	private Long id;
+	
 	// 게시판 종류 구분
-//		-NOTICE : 공지사항
-//		-FREE : 자유게시판
+	//  - NOTICE : 공지사항
+	//  - FREE : 자유게시판
 	private String boardType;
 	
 	private String category;
@@ -39,16 +38,15 @@ public class Board {
 	
 	private String title;
 	
-	@Lob //대용량 데이터   데이터베이스에서 text는 대용량 본문 .실제로는 태그들이 같이 들어와서 사용자가 쓰는것보다 길게 들어오기 때문
+	@Lob // 대용량 데이터를 의미
 	private String content;
 	
-	@ManyToOne //N:1관계 
-	@JoinColumn(name="writer_id")
-	private Member writerId;
+	@ManyToOne // (Board 엔티티) N : 1 (Member 엔티티) 
+	@JoinColumn(name="writer_id") // 실제 테이블의 FK 컬럼명
+	private Member writer;
 	
 	private LocalDateTime createdAt;
 	private LocalDateTime updatedAt;
-	
 	
 	// 저장되기 전 자동 호출
 	@PrePersist
@@ -57,9 +55,21 @@ public class Board {
 		this.updatedAt = LocalDateTime.now();
 	}
 	
-	//수정되기 전
+	// 수정되기 전 자동 호출
 	@PreUpdate
-	   public void preUpdate() {
-	      this.updatedAt = LocalDateTime.now();
-	   }
+	public void preUpdate() {
+		this.updatedAt = LocalDateTime.now();
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+

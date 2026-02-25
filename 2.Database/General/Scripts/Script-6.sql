@@ -17,8 +17,23 @@ CREATE TABLE member (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
+-- id가 7번인 사람(5@5.com)의 이름을 '홍길동'으로 변경
+UPDATE member 
+SET user_name = '홍길동' 
+WHERE id = 2;
 
-use study;
+-- id가 6번인 사람(4@4.com)의 이름을 '김철수'로 변경
+UPDATE member 
+SET user_name = '김철수' 
+WHERE id = 4;
+
+UPDATE member 
+SET user_name = '이소정' 
+WHERE id = 6;
+UPDATE member 
+SET user_name = '샘킴' 
+WHERE id = 7;
+
 
 CREATE TABLE board (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,

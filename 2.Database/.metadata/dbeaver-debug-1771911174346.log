@@ -1,0 +1,163 @@
+2026-02-24 11:16:37.121 - DBeaver 25.3.4.202602011558 is starting
+2026-02-24 11:16:37.124 - OS: Windows 11 10.0 (amd64)
+2026-02-24 11:16:37.124 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-02-24 11:16:37.125 - Install path: 'C:\Users\ssjle\AppData\Local\DBeaver'
+2026-02-24 11:16:37.125 - Instance path: 'file:/C:/study/2.Database/'
+2026-02-24 11:16:37.128 - Memory available 64Mb/1024Mb
+2026-02-24 11:16:37.156 - Create display
+2026-02-24 11:16:37.433 - Initialize desktop platform...
+2026-02-24 11:16:37.667 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
+> Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.10.900.v20251104-0924]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.172.202602011558]
+2026-02-24 11:16:38.024 - Initialize base platform...
+2026-02-24 11:16:38.034 - send collected statistics
+2026-02-24 11:16:38.052 - Platform initialized (619ms)
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.5.500.v20250611-0855]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
+2026-02-24 11:16:38.604 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-02-24 11:16:38.707 - Starting instance server at http://localhost:63066
+2026-02-24 11:16:38.721 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.900.v20251023-1511]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.800.v20250916-0937]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.700.v20250916-0927]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250910-1205]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.600.v20251023-0615]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.5.900.v20251007-0832]
+Warning: NLS unused message: WorkbenchPreference_reuseEditorsThreshold in: org.eclipse.ui.internal.messages
+Warning: NLS unused message: 이유 in: org.eclipse.ui.internal.messages
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.16.1000.v20251114-0005]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.15.202602011558]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.74.202602011558]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.700.v20251023-1511]
+> Start JFace 텍스트 [org.eclipse.jface.text 3.29.0.v20251112-0859]
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.20.200.v20251125-0939]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
+2026-02-24 11:16:43.862 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.162.202602011558]
+2026-02-24 11:16:44.152 - Total database drivers: 127 (127)
+> Start 도움말 시스템 코어 [org.eclipse.help 3.10.600.v20250613-0437]
+2026-02-24 11:16:44.298 - Create actions
+2026-02-24 11:16:45.347 - Initialize workbench window
+2026-02-24 11:16:45.364 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.172.202602011558]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.172.202602011558]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.209.202602011558]
+2026-02-24 11:16:47.780 - Open [https://dbeaver.io/product/version.xml]
+2026-02-24 11:16:48.093 - Connect with 'localhost' (mysql8-19c4275315b-6c218b5a4ee5446e)
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.65.202602011558]
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.257.202602011558]
+2026-02-24 11:16:48.152 - Execution context opened (localhost; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.196.202602011558]
+2026-02-24 11:16:48.496 - Execution context opened (localhost; Metadata; 1)
+2026-02-24 11:16:48.624 - Connected (mysql8-19c4275315b-6c218b5a4ee5446e, MySQL Connector/J [mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)])
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.169.202602011558]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.13.202602011558]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.13.202602011558]
+Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_IncrementalCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Options in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceSelectionButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectedRangeRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_SelectAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_GlobalRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_WholeWordCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceFindButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_BackwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CloseButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Replace_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_CaseCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Status_replacements_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_title in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Direction in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ReplaceAllButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Scope in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_Find_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_ForwardRadioButton_label in: org.eclipse.ui.texteditor.EditorMessages
+Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui.texteditor.EditorMessages
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.148.202602011558]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.8.800.v20250718-1505]
+> Start 콘솔 [org.eclipse.ui.console 3.15.0.v20251113-1013]
+> Start 디버그 핵심 [org.eclipse.debug.core 3.23.200.v20251107-0507]
+2026-02-24 11:16:55.585 - Execution context opened (localhost; SQLEditor <springProject.sql>; 2)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.150.202602011558]
+> Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.164.202602011558]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.150.202602011558]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.67.202602011558]
+2026-02-24 11:17:29.475 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1.DML,DDL 정리.sql)
+2026-02-24 11:17:29.475 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/11. SELECT문제_1_23수업)
+2026-02-24 11:17:29.476 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_23 수업.sql)
+2026-02-24 11:17:29.476 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업.sql)
+2026-02-24 11:17:29.476 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업2.sql)
+2026-02-24 11:17:29.476 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-1.sql)
+2026-02-24 11:17:29.476 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-2.sql)
+2026-02-24 11:17:29.476 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-3.sql)
+2026-02-24 11:17:29.476 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-4.sql)
+2026-02-24 11:17:29.476 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-5.sql)
+2026-02-24 11:17:29.477 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script.sql)
+2026-02-24 11:17:32.215 - Execution context opened (localhost; SQLEditor <Script-6.sql>; 3)
+2026-02-24 11:17:34.652 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1.DML,DDL 정리.sql)
+2026-02-24 11:17:34.652 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/11. SELECT문제_1_23수업)
+2026-02-24 11:17:34.653 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_23 수업.sql)
+2026-02-24 11:17:34.653 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업.sql)
+2026-02-24 11:17:34.653 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업2.sql)
+2026-02-24 11:17:34.653 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-1.sql)
+2026-02-24 11:17:34.653 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-2.sql)
+2026-02-24 11:17:34.653 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-3.sql)
+2026-02-24 11:17:34.653 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-4.sql)
+2026-02-24 11:17:34.654 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-5.sql)
+2026-02-24 11:17:34.654 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script.sql)
+2026-02-24 11:17:36.335 - Execution context opened (localhost; SQLEditor <Script-7.sql>; 4)
+2026-02-24 11:36:16.743 - Execution context closed (localhost, 2)
+2026-02-24 11:36:35.380 - Execution context opened (localhost; SQLEditor <springProject.sql>; 5)
+2026-02-24 11:36:40.194 - Execution context closed (localhost, 5)
+2026-02-24 11:36:42.845 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1.DML,DDL 정리.sql)
+2026-02-24 11:36:42.845 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/11. SELECT문제_1_23수업)
+2026-02-24 11:36:42.845 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_23 수업.sql)
+2026-02-24 11:36:42.845 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업.sql)
+2026-02-24 11:36:42.846 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업2.sql)
+2026-02-24 11:36:42.846 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-1.sql)
+2026-02-24 11:36:42.846 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-2.sql)
+2026-02-24 11:36:42.846 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-3.sql)
+2026-02-24 11:36:42.846 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-4.sql)
+2026-02-24 11:36:42.846 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-5.sql)
+2026-02-24 11:36:42.847 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script.sql)
+2026-02-24 11:37:03.616 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1.DML,DDL 정리.sql)
+2026-02-24 11:37:03.617 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/11. SELECT문제_1_23수업)
+2026-02-24 11:37:03.617 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_23 수업.sql)
+2026-02-24 11:37:03.617 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업.sql)
+2026-02-24 11:37:03.617 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업2.sql)
+2026-02-24 11:37:03.617 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-1.sql)
+2026-02-24 11:37:03.618 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-2.sql)
+2026-02-24 11:37:03.618 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-3.sql)
+2026-02-24 11:37:03.618 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-4.sql)
+2026-02-24 11:37:03.618 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-5.sql)
+2026-02-24 11:37:03.618 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script.sql)
+2026-02-24 11:37:11.973 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1.DML,DDL 정리.sql)
+2026-02-24 11:37:11.974 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/11. SELECT문제_1_23수업)
+2026-02-24 11:37:11.974 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_23 수업.sql)
+2026-02-24 11:37:11.974 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업.sql)
+2026-02-24 11:37:11.974 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/1_26수업2.sql)
+2026-02-24 11:37:11.974 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-1.sql)
+2026-02-24 11:37:11.974 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-2.sql)
+2026-02-24 11:37:11.974 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-3.sql)
+2026-02-24 11:37:11.975 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-4.sql)
+2026-02-24 11:37:11.975 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script-5.sql)
+2026-02-24 11:37:11.975 - Datasource mysql8-19be3364704-2990b7a92e577ae8 not found in project General (/General/Scripts/Script.sql)
+2026-02-24 11:37:15.047 - Execution context opened (localhost; SQLEditor <springProject.sql>; 6)
+2026-02-24 11:37:18.205 - Execution context closed (localhost, 6)
+2026-02-24 13:48:40.767 - Execution context closed (localhost, 4)
+2026-02-24 13:48:40.847 - Execution context closed (localhost, 3)
+2026-02-24 13:48:41.370 - Dispose navigator model
+2026-02-24 13:48:41.468 - DBeaver is stopping
+2026-02-24 13:48:41.473 - Stop instance server
+2026-02-24 13:48:42.485 - DBeaver shutdown completed

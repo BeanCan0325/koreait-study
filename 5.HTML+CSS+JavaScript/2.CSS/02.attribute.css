@@ -1,0 +1,56 @@
+.parent {
+    width: 200px;
+    height: 200px;
+
+    font-size: 20px;
+
+    border: 2px solid #910f0f;
+
+    background-color: cornflowerblue;
+
+/*    텍스트 정렬 */
+    text-align: center;
+
+/*    폰트 굵기  */
+    font-weight: 900; /*100~900까지 지정가능*/
+
+/*     스타일 속성  */
+    font-style: italic;
+
+/*     텍스트 장식(밑줄, 취소선, 윗줄)
+        -none: 일반 텍스트
+        -underline : 밑줄
+        -line-throgh: 취소선
+        -overline: 윗줄
+        -underline overline: 밑줄 +윗줄*/
+    text-decoration: overline;
+}
+
+
+.child {
+    /*백분율(%): 부모 요소의 크기와 비교
+        ex) 부모가 200px -> 50%sms 100px*/
+    /*
+      2em: 현재 폰트 크기와 비교
+              현재폰트가 10px이면 2em *2 = 24px
+      rem: 루트요소(html)의 폰트 크기와 비교
+            ex) html의 기본 폰트 크기는 16px
+                16px -> 2rem은 *2를 한 32px
+      vw : 반응형, 동적으로 변경 viewport width
+            웹페이지가 실제로 랜더링되는 크기를 의미
+            ex) 80vw-> 가로길이 80% 만큼의 길이를 가진다.
+       vh :veiwport height .
+      */
+    width: 10vw;
+    height: 50vh;
+    font-size: 12px;
+    background-color: #67957a;
+    border: 2px solid slateblue ;
+}
+
+a {
+    font-size: 100px;
+    text-decoration: none;
+    color: color-mix(black,blue);
+
+}

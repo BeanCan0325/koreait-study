@@ -9,6 +9,12 @@
 		<column name="크기" visible="true" order="2" width="100"/>
 		<column name="최종 수정" visible="true" order="3" width="100"/>
 	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="설명" visible="true" order="1" width="100"/>
+		<column name="Origin" visible="true" order="2" width="100"/>
+		<column name="드라이버 유형" visible="true" order="3" width="100"/>
+	</item>
 	<item id="NodeList/GenericSequence">
 		<column name="이름" visible="true" order="0" width="100"/>
 		<column name="값" visible="true" order="1" width="100"/>
@@ -133,9 +139,9 @@
 		<column name="Comment" visible="true" order="3" width="68"/>
 	</item>
 	<item id="scriptSelectorViewer">
-		<column name="Script" visible="true" order="0" width="342"/>
-		<column name="Time" visible="true" order="1" width="312"/>
-		<column name="Info" visible="true" order="2" width="197"/>
-		<column name="Folder" visible="true" order="3" width="209"/>
+		<column name="Script" visible="true" order="0" width="304"/>
+		<column name="Time" visible="true" order="1" width="325"/>
+		<column name="Info" visible="true" order="2" width="210"/>
+		<column name="Folder" visible="true" order="3" width="222"/>
 	</item>
 </items>

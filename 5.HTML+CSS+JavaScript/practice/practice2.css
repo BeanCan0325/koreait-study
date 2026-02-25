@@ -1,0 +1,28 @@
+body {
+    margin: 10px;
+    background-color: #e6e6e6;
+    color: #222;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 3px;
+    width: 600px;
+    margin: 6px 3px 6px 3px;
+}
+
+.top {
+    font-weight: bold;
+    padding: 20px 100px 15px 8px;
+}
+.center {
+    font-size: small;
+    padding: 8px;
+}
+.bottom {
+    font-size: small;
+    font-weight: bold;
+    color: blue;
+    padding: 8px;
+}
