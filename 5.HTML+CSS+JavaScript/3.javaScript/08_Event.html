@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08_Event</title>
+</head>
+<body>
+    <button id="click-event-listener"> 이벤트 리스너 등록하기</button>
+    <span id="msg"></span>
+
+      <script>
+        const btn = document.getElementById('click-event-listener');
+        const msg = document.getElementById('msg');
+
+        //click -한번 클릭
+        //dblclick -더블 클릭
+        btn.addEventListener('dblclick', function () {
+          msg.textContent = '버튼이 클릭됨';
+        });
+      </script>
+<!----------------------------------------------------------->
+      <hr>
+      <button id="button" >버튼을 클릭해주세요</button>
+      <div></div>
+        <script>
+          const btn2 = document.getElementById('button');
+          btn2.addEventListener('click',function(){
+
+            if (btn2.textContent === '버튼을 클릭해주세요' ||
+                btn2.textContent === '취소되었습니다.'){
+              btn2.textContent='클릭되었습니다!.';
+            }else{
+              btn2.textContent = '취소되었습니다.';
+            }
+
+          })
+        </script>
+
+    <div id="contextmenu-div"
+          style="width: 300px; height: 300px; background-color: darkcyan;">
+          냥냥
+    </div>
+        <script>
+          const contextmenuDiv = document.getElementById('contextmenu-div');
+
+          contextmenuDiv.addEventListener('contextmenu', function () {
+            console.log('우클릭됨');
+            event.preventDefault();
+          });
+
+          contextmenuDiv.addEventListener('selectstart', function(){
+              event.preventDefault();
+
+          });
+
+        </script>
+
+
+    <img src="" alt="" id="change=img" width="300px" height="300px">
+    <script>
+        const changeImg = document.getElementById('change=img');
+
+        //요소 위로 마우스를 올렸을 때
+        changeImg.addEventListener('mouseover',function (){
+            changeImg.src = './pic1.jpeg';
+        });
+
+
+        //요소에서 마우스가 벗어났을 때
+        changeImg.addEventListener('mouseout', function () {
+            changeImg.src='./pic2.jpg'
+        });
+
+    </script>
+
+    <hr>
+<!--    <input type="text" id="keyboard-input" onkeyup="keyboardFunc()">-->
+    <input type="text" id="keyboard-input" oninput="keyboardFunc(event)">
+
+    <button id="search-btn" onclick="clickFunc()">검색</button>
+
+        <script>
+
+            function clickFunc() {
+                console.log("클릭됨");
+            }
+            function keyboardFunc(event){
+                console.log("이벤트 발생함");
+                console.log(event.keyCode); //13번이 enter
+
+                if (event.keyCode === 13) {
+                    const btn = document.getElementById('search-btn')
+                    btn.click(); //클릭 이벤트 발생시키기
+                }
+            }
+        </script>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>

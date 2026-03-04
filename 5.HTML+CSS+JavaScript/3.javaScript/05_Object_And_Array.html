@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05_Object_And_Array</title>
+</head>
+<body>
+
+    <script>
+<!--      객체: 키-값 쌍으로 이루어진 데이터 구조-->
+let student ={
+  name: "홍홍홍",
+  age: 19,
+  grade: "A" //같은 키를 가질 수 없다.
+}
+
+console.log(student);
+console.log(student.name);  //이걸많이 씀
+console.log(student["name"]);
+
+student.addr = "인천";
+    // addr라는 키를 가진 값("인천")을 추가
+console.log(student);
+
+student.addr = "서울"; //이미 존재하는 키에 덮어쓰면 변경
+console.log(student);
+
+// [JSON 타입 변환]
+let person ={
+  name: "김김김",
+  age: 12,
+  isAdmin: false
+}
+console.log("person 타입: " + typeof person);
+
+// JSON stringify
+//  -javaScript 객체를 JSON 문자열로 반환
+//  -백엔드에 요청을 보낼 때 주로 사용
+let person_json = JSON.stringify(person);// 자바스크립트 객체를 Json으로 변환
+console.log(person_json);
+
+console.log("person_json 타입: "+typeof person_json);
+
+
+// JSON parse
+//  -JSON 문자열을 javaScript 객체로 변환
+//  -백엔드로부터 온 응답 데이터를 다룰 때 주로 사용
+let person_parse = JSON.parse(person_json);
+console.log(person_json);
+
+
+// 객체 메서드
+let obj = {
+    name: "김땡땡",
+    age: 10,
+    addr: "인천"
+}
+
+const keys = Object.keys(obj);// 객체의 모든 키를 배열로 반환
+console.log(keys);
+
+const values = Object.values(obj);// 객체의 모든 값을 배열로 반환
+console.log(values);
+
+const entries = Object.entries(obj);// 객체의 모든 키-값 쌍을 배열로 반환
+console.log(entries)
+
+delete student.grade
+// grade키값 제거
+console.log(student);
+
+//[배열]
+//  : 순서가 있는 데이터 구조
+let scores = [90, 85, 88];
+console.log(scores[1]); //1번 인덱스 요소에 접근
+
+//push()
+//  : 배열의 끝에 요소 추가
+scores.push(10);
+console.log(scores);
+
+// pop() 마지막 요소 제거한 값 반환
+let removeValue = scores.pop();
+console.log(removeValue);
+
+//forEach()
+// -반복문을 좀더 쉽게 사용 할 수 있는 메서드
+let arr = ["a", "b", "c"];
+arr.forEach((item => console.log(item)));
+
+//map()
+// -요소를 하나씩 꺼내가며 정의한 함수 실행 후 새로운 배열 반환
+// - 계산한 값을 반환할 때 사용
+let numbers = [10, 20, 30];
+let resultMap = numbers.map((value) => value += 100);
+console.log(resultMap);
+
+//filter()
+// -요소를 하나씩 꺼내가며 정의한 함수 실행 후 새로운 배열 반환
+// - 조건에 충족하는 요소만 반환
+let resultFilter = numbers.filter((value) => value >= 15);
+console.log(resultFilter);
+
+//sort()
+// - 배열을 정렬 시켜주는 메서드
+// - a-b는 오름차순 정렬, b-a는 내림차순 정렬
+let nums = [1, 3, 4, 22, 34, 5, 66];
+
+let resultSort = nums.sort((a, b) => a - b);//b-a하면 내림차순
+console.log(resultSort);
+//오름차순 정렬시켜주는
+
+
+// ---------------------------------------------
+let students =[
+    {
+        name: "박땡땡",
+        age: 19
+    },
+    {
+        name: "홍길동",
+        age: 22
+    },
+    {
+        name: "김땡땡",
+        age: 5
+    }
+]
+
+console.log(students);
+//홍길동 출력
+console.log(students[1].name);
+
+
+    </script>
+</body>
+</html>

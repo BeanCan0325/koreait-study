@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>06_DOM</title>
+</head>
+<body>
+<div class="box-class">Box1</div>
+<div class="box-class">Box2</div>
+<div class="box-class">Box3</div>
+<div id="box-id">Box4</div>
+
+    <script>
+        let box = document.getElementById("box-id");
+        // [텍스트 노드 조작]
+        // - textContent(사용 권장)
+        // - innerHTML
+        // - innerText(사용 권장하지 않음)
+        box.textContent = '속성 조작중'
+        box.innerText="<strong>innerText</strong>"
+        console.log(box);
+
+        let boxes = document.getElementsByClassName("box-class");
+        console.log(boxes)
+
+        for(let i = 0; i < boxes.length; i++) {
+            console.log(boxes[i]);
+        }
+
+    </script>
+
+        <div id="text-example">
+            <strong>스트롱 태그!</strong>
+            <span style="display:none">숨겨진 텍스트</span>
+        </div>
+
+                <script>
+                    console.log("================================");
+                    let textExample = document.getElementById("text-example");
+                    console.log("textContent");
+                    // 해당 노드가 가지고 있는 모든 텍스트 노드
+                    // -HTML태그는 랜더링 x
+                    // ****주로 사용
+                    console.log(textExample.textContent);
+
+                    //해당하는 요소의 모든 HTML 컨텐츠를 가져옴
+                    //  -HTML 태그 렌더링 0
+                    console.log("innerHTML");
+                    console.log(textExample.innerHTML);
+
+                    // 해당하는 요소의 모든 텍스트 노드
+                    //   -HTML 태그 랜더링 X
+                    //   -단, CSS 영향을 받음
+                    //      >display:none은 안가져오기 등
+                    console.log("innerText");
+                    console.log(textExample.innerText)
+
+                    console.log("================================");
+                </script>
+
+            <hr>
+<script>
+    function testAdd() {
+        let value = document.getElementById('test-input').value;
+        let result = document.getElementById('result');
+
+        result.innerHTML =value;
+    }
+</script>
+<hr>
+        <input type="text" id="userId"  placeholder="아이디를 입력하세요">
+        <button onclick="submitId()">제출</button>
+        <div id="msg"></div>
+
+        <script>
+<!--            아이디가 비어있거나 20자 이상이면 안내 문구를 생성-->
+            function submitId(){
+                let userId = document.getElementById("userId").value;
+                let msg = document.getElementById('msg');
+
+                if (userId === "") {
+                    msg.style.color ='red';
+                    msg.style.fontSize ='20px';
+                    msg.textContent = "아이디 입력하란 말야✍️";
+                } else if (userId.length >= 20) {
+                    msg.style.color = 'blue';
+                    msg.style.fontSize = '10px';
+                    msg.textContent = "아이디 20자 미만으로 쓰세요";
+                } else {
+                    msg.style = 'green';
+                    msg.textContent="사용가능한 아이디입니다."
+                }
+            }
+        </script>
+
+        <hr>
+        <input type="text" id="todo-input">
+        <button onclick="todoFunc()">추가하기</button>
+        <ul id="todo-list">
+            <li>먹기</li>
+        </ul>
+
+            <script>
+                function todoFunc() {
+                    const todoInput = document.getElementById('todo-input');
+                    const todoList = document.getElementById('todo-list');
+
+                    console.dir(todoInput);
+
+                    //요소 생성하기
+                    const todoItem = document.createElement("li"); //<li></>li>  이거 생성된거
+                    todoItem.textContent=todoInput.value;
+
+                    //ul 요소의 자식으로 추가하기
+                    todoList.appendChild(todoItem);
+
+                    todoInput.value = "";
+                }
+            </script>
+
+
+            <hr>
+<table border="1">
+    <thead>
+        <tr>
+            <th>이름</th>
+            <th>나이</th>
+        </tr>
+    </thead>
+    <tbody id="tbody-id">
+<!--    여기에 추가-->
+    </tbody>
+</table>
+
+<input type="text" id="table-name">
+<input type="text" id="table-age">
+<button onclick="addTable()">추가하기</button>
+            <script>
+                function addTable(){
+                //     1. 필요한 요소 가져오기
+                    const name = document.getElementById('table-name').value;
+                    const age = document.getElementById('table-age').value;
+                    const tbody = document.getElementById('tbody-id');
+                //     2. 요소 추가하기
+                    const nameTd = document.createElement("td"); //td태그 만든거 <td></td>
+                    const ageTd = document.createElement("td"); //td태그 만든거
+                    const tr =document.createElement("tr"); //<tr></tr>>
+                //     3. 텍스트 노드 추가하기
+                    nameTd.textContent = name; // <th> 이소정 </td>
+                    ageTd.textContent=age; //<td> 19 </td>
+                //     4. 자식 요소로 추가하기(DOM Tree에 이어붙이기)
+
+                    /**
+                     * <tr>
+                     *     <td> 이소정</td>
+                     *     <td> 18 </td>
+                     */
+                    tr.appendChild(nameTd);
+                    tr.appendChild(ageTd);
+
+                    tbody.appendChild(tr);
+                }
+            </script>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</body>
+</html>

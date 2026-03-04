@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01_DOM</title>
+</head>
+<body>
+<h3>Q1. 사용자의 이름을 입력받고 확인 버튼을 누르면 "000님 환영합니다."를 alert으로 출력</h3>
+<input type="text" id="inputId">
+<button onclick="submit()" >제출</button>
+<div></div>
+<script>
+  function submit(){
+    let inputId = document.getElementById("inputId");
+    let name = inputId.value;
+    alert(name + "님 환영합니다.");
+  }
+</script>
+<hr>
+<h3>Q2. 구구단 몇단을 출력할지 입력받고 확인 버튼을 누르면 div 태그에 결과 출력</h3>
+<input type="text" id="guguInput">
+<button onclick="magic()">🪄</button>
+<div id="gugudan"></div>
+
+<script>
+  function magic(){
+    let a = document.getElementById("guguInput").value;
+    let result= document.getElementById("gugudan");
+    for (let i = 1; i < 10; i++) {
+      result.innerHTML += (a + "*" + i + "=" + (a * i)+"<br>");
+
+    }
+  }
+</script>
+<hr>
+
+<h3>Q3. 사용자의 이름과 나이를 입력받고 확인 버튼을 누르면 환영메세지 출력</h3>
+<p>18세 미만: "000님 안녕하세요! 성인이 아닙니다.</p>
+<p>18세 이상: "000님 안녕하세요! 성인입니다.</p>
+<p style="color: red"> 나이에 숫자를 입력하지 않을 경우 "나이를 숫자로 입력하세요. 출력</p>
+<p style="color: red"> *isNaN()을 찾아서 활용해보기</p>
+<input type="text" placeholder="이름을 입력하세요." id="name">
+<input type="text" placeholder="나이를 입력하세요" id="age">
+<button onclick="check()">➡️</button> <br>
+<div id="q3-result"></div>
+
+<script>
+function check(){
+  let name = document.getElementById("name").value;
+  // input은 .value로 가져온다.
+  let age = parseInt(document.getElementById("age").value);
+  let q3_result = document.getElementById("q3-result");
+
+
+  if (isNaN(age) || age ===""){
+  q3_result.textContent = "나이를 숫자로 입력하세요."
+  } else if (age >= 18) {
+      q3_result.textContent= name+"님 안녕하세요! 성인입니다."
+    }else{
+    q3_result.textContent=name+"님 안녕하세요! 성인이 아닙니다."
+  }
+
+
+  }
+
+</script>
+
+<h3>Q4. 사용자로부터 숫자 1개를 입력받아 확인 버튼을 누르면 홀수인지 짝수인지 판별하기</h3>
+<p> 짝수라면 "입력한 숫자는 짝수" 를 red로 </p>
+<p> 홀수라면 "입력한 숫자는 홀수" 를 blue로 </p>
+<input type="text" id="odd">
+<button onclick="isOddNum()">🩻</button>
+<div id="q4-result"></div>
+
+<script>
+   function isOddNum(){
+     let num = parseInt(document.getElementById("odd").value);
+     let q4_result = document.getElementById("q4-result");
+
+     if (num % 2 === 0) {
+       q4_result.style.color = 'red';
+       q4_result.textContent=num + "은 짝수입니다.";
+     } else {
+       q4_result.style.color = 'blue';
+       q4_result.textContent=num+"은 홀수입니다.";
+     }
+   }
+</script>
+
+
+<h3>Q5. 사용자로부터 임의의 문자열을 입력받아 길이를 계산하여 출력하고, 역순으로 출력</h3>
+<p> 문자열 역순은 reverse() 찾아서 활용</p>
+<input type="text" id="q5-input" oninput="length()">
+<div id="q5-length"> </div>
+<div id="q5-reverse"> </div>
+
+<script>
+  function length(){
+    let inputNum = document.getElementById("q5-input").value;
+    let lengthNum = inputNum.length;
+    let reverseNum = inputNum.split("").reverse().join("");
+
+    document.getElementById("q5-length").textContent =lengthNum;
+    document.getElementById("q5-reverse").textContent =reverseNum;
+
+  }
+
+
+</script>
+
+
+
+
+</body>
+</html>
