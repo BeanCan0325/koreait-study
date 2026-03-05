@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10_window</title>
+</head>
+<body>
+    <p>window 객체: 자바스크립트 최상위 객체</p>
+
+    <h3>window.open()</h3>
+    <button onclick="windowFunc()">클릭</button>
+
+      <script>
+          function windowFunc(){
+            window.open("http://naver.com", "asd", "width=500", "height=500");
+
+          }
+      </script>
+    <hr>
+    <h3>타이머 관련 함수</h3>
+    <ol>
+      <li>setTime</li>
+      <li>setInterver</li>
+    </ol>
+    <button onclick="timerFunc()">클릭</button>
+
+      <script>
+          function timerFunc(){
+            setTimeout(() => {
+              alert("안녕하세요")
+            }, 5000); // setTimeout() 은 5000(5초)가 지나고 나면 alert()이 실행.
+
+
+            const newNaver = window.open("http://naver.com");
+            newNaver.alert("안녕하세요");
+
+            setTimeout(() => {
+              newNaver.close()
+            }, 5000); // 5초뒤에 닫힌다.
+          }
+      </script>
+
+    <div id="current-date"></div>
+    <button onclick="currentDate()">시간 확인</button>
+
+    <script>
+      function currentDate() {
+        const currentDate = document.getElementById('current-date');
+
+        let interverObj = setInterval(() => {  //➡️setInterval() 일정시간마다 시작
+          currentDate.textContent = new Date(); //➡️Date() 시간을 알려주는 객체
+        }, 1000);// 1000(1초) -> 1초마다 특정 코드 실행
+
+
+        setTimeout(() => {
+          clearInterval(interverObj);  //clearInterver() -> 중지
+        }, 5000);
+      }
+    </script>
+
+    <hr>
+    <h3>BOM (Browser Object Model)</h3>  //BOM이랑 DOM이랑 헷갈리자말아.
+    <p> * 브라우저를 JavaScript가 제어하도록 하는 객체모델</p>
+    <ol>
+        <li>document(DOM)</li>
+        <li>location</li>
+        <li>screen</li>
+        <li>navigator</li>
+        <li>history</li>
+    </ol>
+
+    <button onclick="location.href='https://www.naver.com'">location</button>
+<!--    ➡️location.href() : 페이지 이동-->
+    <button onclick="console.log(screen)">스크린</button>
+    <button onclick="console.log(navigator)">네비게이터</button>
+    <button onclick="console.log(history)">히스토리</button>
+    <button onclick="history.back()">히스토리백</button>
+<!--        보통 '취소'버튼에 ➡️history.back() 달려있음-->
+
+</body>
+</html>

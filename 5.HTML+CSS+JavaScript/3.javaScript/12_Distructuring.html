@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12_Distructuring</title>
+</head>
+<body>
+        <script>
+
+            //주의 ⭐{} ->객체 []->배열
+            const user ={name: "이소정", age: 18, addr:"부천"} //키 값 처럼 들어간거
+
+            // ▶Distructuring 얘가알아서 처리해줌
+            // : 변수명은 객체의 키와 동일하게 설정
+            const{name,age,addr} = user;
+            console.log(name);
+            console.log(age);
+            console.log(addr);
+
+            const animals = [`dog`, `cat`, `pig`];
+            const a = animals[0]; //-> 원래 이런식으로 꺼냈어야함
+
+            //▶Distructuring 하면 아래처럼 대신 꺼낼 수 있다.
+            //          대신 배열 index를 순서대로 가져와야함. *순서주의
+            const [first, second, third] = animals;
+            // const [,, third] = animals;  => 이렇게 쓰면 안쓰는애들 지우면 안가져옴
+            console.log(first);
+            console.log(second);
+            console.log(third);
+
+        </script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>15_async</title>
+</head>
+<body>
+    <script>
+      console.log("Hello, World!"); //1번째 출력
+
+      setTimeout(() => {
+        console.log("Async!!!");
+      }, 3000);                 // 3번째 출력
+
+      console.log("go"); //2번째 출력
+    </script>
+<!--------------------------------------------->
+<!--콜백함수-->
+    <script>
+      function getUserData(callback){
+        setTimeout(() => {
+          const userData ={name: "홍길동", age: 25};
+          callback(userData);
+        }, 1000)
+      }
+
+      getUserData(function () {
+        console.log("hi");
+      });
+
+
+      function printMessage(message, callback) {
+        callback(message);
+      }
+      printMessage("Hello,JavaScript",function(message){
+        console.log(message);
+      })
+
+      function addAndCallback(num1, num2, callback) {
+        callback(num1+ num2);
+      }
+
+      addAndCallback(1,2,function(a,b){
+        console.log("덧셈결과:"+(a+b));
+      })
+
+
+
+    </script>
+
+<!--    프로미스(Promise)
+            - 콜백지옥을 해결하기위해 등장한 비동기 처리를 위한 객체
+
+            프로미스 메서드
+              - resolve :작업 성공 시
+              - reject : 작업 실패 시
+
+            프로미스 상태
+              - pending :작업이 완료되지 않은 상태(대기 상태)
+              - fulfilled: 작업이 성공적으로 완료된 상태(완료상태)
+              - rejected: 작업이 실패한 상태(실패한 상태)
+-->
+    <script>
+          function getUser(){
+            return new Promise((resolve,rejecte) => {
+                const user = {name:"홍길동", age: 22};
+              // resolve(user); //작업 성공시 user 객체를 던져주겠다.
+              rejecte("작업실패!!");
+            })
+          }
+
+          getUser()
+                  .then((data)=>{  //작업 성공시(resolve 호출 시 실행되는 영역)
+                    console.log(data);
+                  })
+
+                  .catch(()=>{
+                    console.error(errorMsg);
+                  })
+    </script>
+</body>
+</html>

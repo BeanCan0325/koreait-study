@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>14_array_method</title>
+</head>
+<body>
+        <script>
+            let scores = [34, 52, 66, 77, 84, 100];
+
+        //     scores 배열에서 각각의 요소에 2를 곱한 리스트 반환
+            let doubleScores = scores.map((score) => score * 2);
+
+        //     scores 배열에서 70점을 초과하는 요소만 리스트 반환
+            let passScores = scores.filter((score) => score > 70);
+
+        //     scores 배열에서 모든 점수의 합계 반환
+            let reduceScores = scores.reduce((total, score) => total + score, 0);
+
+            console.log(doubleScores);
+            console.log(passScores);
+            console.log(reduceScores);
+
+            let students =[
+                {
+                    name: "김홍삼",
+                    score: 40
+                },{
+                    name: "박지원",
+                    score: 70
+                },{
+                    name: "홍진경",
+                    score: 100
+                }
+
+            ]
+
+            let topStudents = students.filter((student) => student.score >= 90);
+            console.log(topStudents);
+
+            //students 배열에서 성적의 합계 구하기(reduce)
+            let sumScore = students.reduce((total, student) => total + student.score, 0);
+            console.log(sumScore);
+
+            //students 배열에서 각각의 요소(score)에 5점 추가하여 반환
+            let editScore = students.map((student) => student.score + 5);
+            console.log(editScore);
+
+        </script>
+</body>
+</html>
