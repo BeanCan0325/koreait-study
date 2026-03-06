@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>16_async_await</title>
+</head>
+<body>
+    <script>
+        function getUserData(){
+            return new Promise((resolve, reject)=>{
+                setTimeout(()=>{
+                    const userData = {name: "홍박사", age: 50};
+                    resolve(userData)
+                },1000)
+            })
+        }
+
+        function getUserPosts(user){
+            return new Promise((resolve,reject)=>{
+                const postList =["게시글 1", "게시글2"]
+                resolve(postList); //성공해야 resolve()가 user변수에 담기는거. 즉 이거 없으면 안됨
+            })
+        }
+
+        function getPostComments(post) {
+            return new Promise((resolve, reject) =>{
+                setTimeout(()=>{
+                    const commentList=["댓글1","댓글2"];
+                    resolve(commentList);
+
+                })
+            })
+        }
+
+        async function fetchData(){
+            try {
+                const user = await getUserData();
+                console.log("첫번째 함수 호출 종료");
+
+                const post = await getUserPosts(user);
+                console.log("두번째 함수 호출 종료");
+
+                const commentList = await getPostComments(post);
+                console.log("세번째 함수 호출 종료");
+
+
+            } catch (error){
+                console.error(error);
+            }
+
+        }
+
+        fetchData();
+
+    </script>
+
+
+    </script>
+
+
+
+</body>
+</html>
